@@ -1,0 +1,78 @@
+{
+    "static_paths": ["DjangoTemplates/static"],
+    "template_paths": ["DjangoTemplates/templates"],
+    "contexts_path": "DjangoTemplates",
+    "pages": [
+      {
+        "name": "Home page",
+        "contexts": ["context.json"],
+        "template": "sb-admin-2_template/index.html"
+      },
+      {
+        "name": "404",
+        "contexts": ["base.json", "404.json"],
+        "template": "sb-admin-2_template/404.html"
+      },
+      {
+        "name": "Blank",
+        "contexts": ["base.json", "blank.json"],
+        "template": "sb-admin-2_template/blank.html"
+      },
+      {
+        "name": "Buttons",
+        "contexts": ["base.json", "buttons.json"],
+        "template": "sb-admin-2_template/buttons.html"
+      },
+      {
+        "name": "Cards",
+        "contexts": ["base.json", "cards.json"],
+        "template": "sb-admin-2_template/cards.html"
+      },
+      {
+        "name": "Charts",
+        "contexts": ["base.json", "charts.json"],
+        "template": "sb-admin-2_template/charts.html"
+      },
+      {
+        "name": "Forgot Password",
+        "contexts": [ "forgot-password.json"],
+        "template": "sb-admin-2_template/forgot-password.html"
+      },
+      {
+        "name": "Login",
+        "contexts": ["login.json"],
+        "template": "mentor_template/login.html"
+      },
+      {
+        "name": "Register",
+        "contexts": ["register.json"],
+        "template": "mentor_template/register.html"
+      },
+      {
+        "name": "Tables",
+        "contexts": ["base.json","tables.json"],
+        "template": "mentor_template/tables.html"
+      },
+      {
+        "name": "Utilities Animation",
+        "contexts": ["base.json","utilities-animation.json"],
+        "template": "mentor_template/utilities-animation.html"
+      },
+      {
+        "name": "Utilities Border",
+        "contexts": ["base.json","utilities-border.json"],
+        "template": "mentor_template/utilities-border.html"
+      },
+      {
+        "name": "Utilities Color",
+        "contexts": ["base.json","utilities-color.json"],
+        "template": "mentor_template/utilities-color.html"
+      },
+      {
+        "name": "Utilities Other",
+        "contexts": ["base.json","utilities-other.json"],
+        "template": "mentor_template/utilities-other.html"
+      }
+    ]
+  }
+  

@@ -64,7 +64,149 @@
                     }
                 ]
             }
+        },
+        "nav_item_charts":{
+
+            "list":[
+                {
+                    "href":"charts.html",
+                    "i_class":"fas fa-fw fa-chart-area",
+                    "span_text":"Chart"
+
+                },
+                {
+                    "href":"tables.html",
+                    "i_class":"fas fa-fw fa-table",
+                    "span_text":"Tables"
+                }
+            ]
+        },
+        "toggler":{
+            "button":{
+                "class":"rounded-circle border-0",
+                "id":"sidebarToggle"
+            }
+        },
+        "message": {
+            "img":{
+                "src":"sb-admin-2_template/assets/img/undraw_rocket.svg",
+                "alt":""
+            },
+            "text":{
+                "strong":"SB Admin Pro",
+                "paragraph":"is packed with premium features, components, and more!"
+            },
+            "button":{
+                "class":"btn btn-success btn-sm",
+                "href":"https://startbootstrap.com/theme/sb-admin-pro",
+                "text":"Upgrade to Pro!"
+            }
         }
-    } 
+    },
+
+    "topbar":{
+        "toggler":{
+            "button":{
+                "id":"sidebarToggleTop",
+                "class":"btn btn-link d-md-none rounded-circle mr-3",
+                "i_class":"fa fa-bars"
+            }
+
+        },
+        "search":{
+            "form":{
+                "class":"d-none d-sm-inline-block form-inline mr-auto ml-md-3 my-2 my-md-0 mw-100 navbar-search",
+                "input":{
+                    "type":"text",
+                    "placeholder":"Search for...",
+                    "aria_label":"Search",
+                    "aria_describedby":"basic-addon2"
+                },
+                "button":{
+                    "class":"btn btn-primary",
+                    "type":"button",
+                    "i_class":"fas fa-search fa-sm"
+                }
+            }
+
+        },
+        "navbar":{
+            "search_dropdown":{
+                "class":"nav-link dropdown-toggle",
+                "href":"#",
+                "id":"searchDropdown",
+                "role":"button",
+                "i_class":"fas fa-search fa-fw",
+                "messages":{
+                    "form":{
+                        "class":"form-inline mr-auto w-100 navbar-search",
+                        "input":{
+                            "type":"text",
+                            "class":"form-control bg-light border-0 small",
+                            "placeholder":"Search for..."
+                        },
+                        "button":{
+                            "class":"btn btn-primary",
+                            "type":"button",
+                            "i_class":"fas fa-search fa-sm"
+                        }
+                    }
+                }
+            },
+            "alerts":{
+                "class":"nav-item dropdown no-arrow mx-1",
+                "href":"#",
+                "id":"alertsDropdown",
+                "role":"button",
+                "i_class":"fas fa-bell fa-fw",
+                "span_class":"badge badge-danger badge-counter",
+                "span_text":"3+",
+            
+                "dropdown":{
+                "label":"Alerts Center",
+                "list":[
+                    {
+                        "href":"",
+                        "class":"icon-circle bg-primary",
+                        "i_class":"fas fa-file-alt text-white",
+                        "date_class":"small text-gray-500",
+                        "date_text":"December 12, 2019",
+                        "span_text":"A new monthly report is ready to download!"
+
+                    },
+                    {
+                        "href":"",
+                        "class":"icon-circle bg-succes",
+                        "i_class":"fas fa-donate text-white",
+                        "date_class":"small text-gray-500",
+                        "date_text":"December 7, 2019",
+                        "span_text":"$290.29 has been deposited into your account!"
+
+                    },
+                    {
+                        "href":"",
+                        "class":"icon-circle bg-warning",
+                        "i_class":"fas fa-exclamation-triangle text-white",
+                        "date_class":"small text-gray-500",
+                        "date_text":"December 2, 2019",
+                        "span_text":"Spending Alert: We've noticed unusually high spending for your account."
+
+                    }
+                ],
+                "footer":{
+                    "href":"#",
+                    "text":"Show All Alerts"
+                }
+
+            },
+            "messages":{
+                
+            }
+
+        
+        }
+
+
+
 
 }

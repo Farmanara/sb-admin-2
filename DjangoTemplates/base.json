@@ -1,0 +1,74 @@
+{
+    "meta":{
+
+    },
+    "head": {
+        "title":"SB Admin 2 - Dashboard",
+
+    },
+    "side_bar":{
+        
+        "side_bar_brand": {
+            "href":"index.html",
+            "i_class":"fas fa-laugh-wink",
+            "text":"SB Admin",
+            "sup_text":"2"
+        },
+        
+        "nav_item_dashboard" : {
+            "href":"index.html",
+            "i_class":"fas fa-fw fa-tachometer-alt",
+            "span_text":"Dashboard",
+        },
+        "side_bar_heading":"Interface",
+
+        "nav_item_collapse_menu":{
+            "href":"#",
+            "i_class":"fas fa-fw fa-cog",
+            "span_text":"Components",
+            "collapse_header":"Custom Components",
+            "collapse_items":[
+                {
+                    "href":"buttons.html",
+                    "text":"Buttons"
+                },
+                {
+                    "href":"cards.html",
+                    "text":"Cards"
+                }
+            ]
+        },
+        
+        "nav_item_utilities_collapse_menu":{
+            "href":"#",
+            "i_class":"fas fa-fw fa-wrench",
+            "span_text":"utilities",
+            "custom_utilities":{
+                "header":"Custom Utilities",
+                "list":[
+                    {
+                        "href":"utilities-color.html",
+                        "text":"Colors"
+                    },
+                    {
+                        "href":"utilities-border.html",
+                        "text":"Borders"
+                    },
+                    {
+                        "href":"utilities-animation.html",
+                        "text":"Animations"
+                    },
+                    {
+                        "href":"utilities-other.html",
+                        "text":"Other"
+                    }
+                ]
+            }
+        },
+        ""
+        
+       
+
+    }
+
+}

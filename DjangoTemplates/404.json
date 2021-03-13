@@ -1,0 +1,12 @@
+{
+    "error":{
+        "title":"404",
+        "description":"Page Not Found",
+        "message":"It looks like you found a glitch in the matrix...",
+        "anchor":{
+            "href":"index.html",
+            "text":"&larr; Back to Dashboard"
+        }
+
+    }
+}

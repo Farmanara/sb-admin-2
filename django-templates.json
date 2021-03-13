@@ -10,7 +10,7 @@
       },
       {
         "name": "404",
-        "contexts": ["base.json", "404.json"],
+        "contexts": ["404.json"],
         "template": "sb-admin-2_template/404.html"
       },
       {

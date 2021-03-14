@@ -1,15 +1,17 @@
 {
+    "head": {
+        "title": "SB Admin 2 - Dashboard"
+    },
     "sections": [
         {
             "file": "sb-admin-2_template/sections/section0.html",
-            "content":{
-                "heading":"Dashboard",
-                "href":"#",
-                "a_class":"d-none d-sm-inline-block btn btn-sm btn-primary shadow-sm",
-                "i_class":"fas fa-download fa-sm text-white-50",
-                "a_text":"Generate Report"
-
+            "content": {
+                "heading": "Dashboard",
+                "href": "#",
+                "a_class": "d-none d-sm-inline-block btn btn-sm btn-primary shadow-sm",
+                "i_class": "fas fa-download fa-sm text-white-50",
+                "a_text": "Generate Report"
             }
-         }
+        }
     ]
 }

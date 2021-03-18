@@ -9,30 +9,34 @@
                     <div class="col mr-2">
                         <div class="{{card.title_class}}">
                             {{card.title}}</div>
-                        <div class="{{card.text_class}}">{{card.text}}</div>
+                       {%if not card.progress_bar%} <div class="{{card.text_class}}">{{card.text}}</div> {%endif%}
 
                         {%if card.progress_bar%}
-
-                        <div class="col">
-                            <div class="progress progress-sm mr-2">
-                                <div class="{{card.progress_bar.class}}" role="{{card.progress_bar.role}}"
-                                    style="{{card.progress_bar.style}}" aria-valuenow="{{card.progress_bar.value_now}}"
-                                    aria-valuemin="{{card.progress_bar.value_min}}"
-                                    aria-valuemax="{{card.progress_bar.value_max}}"></div>
+                        <div class="row no-gutters align-items-center">
+                            <div class="col-auto">
+                                <div class="h5 mb-0 mr-3 font-weight-bold text-gray-800">50%</div>
+                            </div>
+                            <div class="col">
+                                <div class="progress progress-sm mr-2">
+                                    <div class="{{card.progress_bar.class}}" role="{{card.progress_bar.role}}"
+                                        style="{{card.progress_bar.style}}"
+                                        aria-valuenow="{{card.progress_bar.value_now}}"
+                                        aria-valuemin="{{card.progress_bar.value_min}}"
+                                        aria-valuemax="{{card.progress_bar.value_max}}"></div>
+                                </div>
                             </div>
                         </div>
-
                         {%endif%}
 
 
-                    </div>
-                    <div class="col-auto">
-                        <i class="{{card.i_class}}"></i>
+
+                        <div class="col-auto">
+                            <i class="{{card.i_class}}"></i>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
-    {%endfor%}
+        {%endfor%}
 
-</div>
+    </div>

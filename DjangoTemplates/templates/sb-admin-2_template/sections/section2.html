@@ -1,6 +1,6 @@
 <div class="row">
     {%for card in section.content.cards%}
-    <!-- Area Chart -->
+
     <div class="{{card.div_class}}">
         <div class="card shadow mb-4">
             <!-- Card Header - Dropdown -->
@@ -42,7 +42,7 @@
                 <div class="mt-4 text-center small">
                     {%for item in card.dropdown_body.piechart.span_items%}
                     <span class="mr-2">
-                        <i class="{{item.i_class}}">{{item.text}}</i>
+                        <i class="{{item.i_class}}"></i>{{item.text}}
                     </span>
                     {%endfor%}
 

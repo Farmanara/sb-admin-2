@@ -183,6 +183,161 @@
 
 
             }
+        },
+        {
+            "file":"sb-admin-2_template/sections/section3.html",
+            "content":{
+
+                "project_progressbars":{
+                    "title":{
+                        "class":"m-0 font-weight-bold text-primary",
+                        "text":"Projects"
+                    },
+                    "items":[
+                        {
+                         "heading_class":"small font-weight-bold",
+                         "heading_text":"Server Migration",
+                         "span_text":"20%",
+                         "bar":{
+                             "class":"progress-bar bg-danger",
+                             "role":"progressbar",
+                             "style":"width: 20%",
+                             "value_now":"20",
+                             "value_min":"0",
+                             "value_max":"100"
+                         }
+
+                        },
+                        {
+                            "heading_class":"small font-weight-bold",
+                            "heading_text":"Sales Tracking",
+                            "span_text":"40%",
+                            "bar":{
+                                "class":"progress-bar bg-warning",
+                                "role":"progressbar",
+                                "style":"width: 40%",
+                                "value_now":"40",
+                                "value_min":"0",
+                                "value_max":"100"
+                            }
+   
+                           },
+                           {
+                            "heading_class":"small font-weight-bold",
+                            "heading_text":"Customer Database",
+                            "span_text":"60%",
+                            "bar":{
+                                "class":"progress-bar",
+                                "role":"progressbar",
+                                "style":"width: 60%",
+                                "value_now":"60",
+                                "value_min":"0",
+                                "value_max":"100"
+                            }
+   
+                           },
+                           {
+                            "heading_class":"small font-weight-bold",
+                            "heading_text":"Payout Details",
+                            "span_text":"80%",
+                            "bar":{
+                                "class":"progress-bar bg-info",
+                                "role":"progressbar",
+                                "style":"width: 80%",
+                                "value_now":"80",
+                                "value_min":"0",
+                                "value_max":"100"
+                            }
+   
+                           },
+                           {
+                            "heading_class":"small font-weight-bold",
+                            "heading_text":"Account Setup",
+                            "span_text":"Complete!",
+                            "bar":{
+                                "class":"progress-bar bg-success",
+                                "role":"progressbar",
+                                "style":"width: 100%",
+                                "value_now":"100",
+                                "value_min":"0",
+                                "value_max":"100"
+                            }
+   
+                           }
+                    ]
+
+                },
+
+                "color_system":{
+                    "cards":[
+                        {
+                            "class":"card bg-primary text-white shadow",
+                            "title":"Primary",
+                            "text_class":"text-white-50 small",
+                            "text":"#4e73df"
+
+
+                        },
+                        {
+                            "class":"card bg-success text-white shadow",
+                            "title":"Success",
+                            "text_class":"text-white-50 small",
+                            "text":"#1cc88a"
+
+
+                        },
+                        {
+                            "class":"card bg-info text-white shadow",
+                            "title":"Info",
+                            "text_class":"text-white-50 small",
+                            "text":"#36b9cc"
+
+
+                        },
+                        {
+                            "class":"card bg-warning text-white shadow",
+                            "title":"Warning",
+                            "text_class":"text-white-50 small",
+                            "text":"#f6c23e"
+
+
+                        },
+                        {
+                            "class":"card bg-danger text-white shadow",
+                            "title":"Danger",
+                            "text_class":"text-white-50 small",
+                            "text":"#e74a3b"
+
+
+                        },
+                        {
+                            "class":"card bg-secondary text-white shadow",
+                            "title":"Secondary",
+                            "text_class":"text-white-50 small",
+                            "text":"#858796"
+
+
+                        },
+                        {
+                            "class":"card bg-light text-black shadow",
+                            "title":"Light",
+                            "text_class":"text-white-50 small",
+                            "text":"#f8f9fc"
+
+
+                        },
+                        {
+                            "class":"card bg-dark text-white shadow",
+                            "title":"Dark",
+                            "text_class":"text-white-50 small",
+                            "text":"#5a5c69"
+
+
+                        }
+                    ]
+
+                }
+            }
         }
     ]
 }

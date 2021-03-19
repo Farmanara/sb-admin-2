@@ -110,7 +110,7 @@
                        },
                        "dropdown_body":
                        {
-                           "is_areachart":"",
+                           "is_areachart":"true",
                            "chart_class":"chart-area",
                            "canvas_id":"myAreaChart"
 

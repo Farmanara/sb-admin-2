@@ -1,61 +1,58 @@
-
-                    <div class="row">
-                        {%for card in section.content.cards%}
-                        <!-- Area Chart -->
-                        <div class="{{card.div_class}}">
-                            <div class="card shadow mb-4">
-                                <!-- Card Header - Dropdown -->
-                                <div
-                                    class="{{card.dropdown_header.div_class}}">
-                                    <h6 class="{{card.dropdown_header.text_class}}">{{card.dropdown_header.text}}</h6>
-                                    <div class="dropdown no-arrow">
-                                        <a class="dropdown-toggle" href="{{card.dropdown_header.button.href}}" role="{{card.dropdown_header.button.role}}" id="{{card.dropdown_header.button.id}}"
-                                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                            <i class="{{card.dropdown_header.button.i_class}}"></i>
-                                        </a>
-                                        <div class="{{card.dropdown_header.menu.class}}"
-                                            aria-labelledby="{{card.dropdown_header.menu.label}}">
-                                            <div class="dropdown-header">{{card.dropdown_header.menu.header}}</div>
-                                            {%for item in card.dropdown_header.menu.items%}
-                                            <a class="dropdown-item" href="{{item.href}}">{{item.text}}</a>
-                                            {%endfor%}
-                                            <div class="dropdown-divider"></div>
-                                            {%for item in card.dropdown_header.menu.items_after_divider%}
-                                            <a class="dropdown-item" href="{{item.href}}">{{item.text}}</a>
-                                            {%endfor%}
-                                        </div>
-                                    </div>
-                                </div>
-                                <!-- Card Body -->
-                              {%if card.dropdown_body.is_piechart%}
-                                <div class="card-body">
-                                    <div class="{{card.dropdown_body.chart_class}}">
-                                        <canvas id="{{card.dropdown_body.canvas_id}}"></canvas>
-                                    </div>
-                                </div>
-
-
-                                {%endif%}
-                                {%if card.dropdown_body.is_piechart%}
-
-                                <div class="card-body">
-                                    <div class="{{card.dropdown_body.piechart.chart_class}}">
-                                        <canvas id="{{card.dropdown_body.piechart.canvas_id}}"></canvas>
-                                    </div>
-                                    <div class="mt-4 text-center small">
-                                        {%for item in card.dropdown_body.piechart.span_items%}
-                                        <span class="mr-2">
-                                            <i class="{{item.i_class}}">{{item.text}}</i> 
-                                        </span>
-                                        {%endfor%}
-                                      
-                                    </div>
-                                </div>
-                                {%endif%}
-
-                            </div>
-                        </div>
+<div class="row">
+    {%for card in section.content.cards%}
+    <!-- Area Chart -->
+    <div class="{{card.div_class}}">
+        <div class="card shadow mb-4">
+            <!-- Card Header - Dropdown -->
+            <div class="{{card.dropdown_header.div_class}}">
+                <h6 class="{{card.dropdown_header.text_class}}">{{card.dropdown_header.text}}</h6>
+                <div class="dropdown no-arrow">
+                    <a class="dropdown-toggle" href="{{card.dropdown_header.button.href}}"
+                        role="{{card.dropdown_header.button.role}}" id="{{card.dropdown_header.button.id}}"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <i class="{{card.dropdown_header.button.i_class}}"></i>
+                    </a>
+                    <div class="{{card.dropdown_header.menu.class}}"
+                        aria-labelledby="{{card.dropdown_header.menu.label}}">
+                        <div class="dropdown-header">{{card.dropdown_header.menu.header}}</div>
+                        {%for item in card.dropdown_header.menu.items%}
+                        <a class="dropdown-item" href="{{item.href}}">{{item.text}}</a>
                         {%endfor%}
-
-                      
+                        <div class="dropdown-divider"></div>
+                        {%for item in card.dropdown_header.menu.items_after_divider%}
+                        <a class="dropdown-item" href="{{item.href}}">{{item.text}}</a>
+                        {%endfor%}
                     </div>
+                </div>
+            </div>
+            <!-- Card Body -->
+            {%if card.dropdown_body.is_areachart%}
+            <div class="card-body">
+                <div class="{{card.dropdown_body.chart_class}}">
+                    <canvas id="{{card.dropdown_body.canvas_id}}"></canvas>
+                </div>
+            </div>
+            {%endif%}
+            {%if card.dropdown_body.is_piechart%}
+
+            <div class="card-body">
+                <div class="{{card.dropdown_body.piechart.chart_class}}">
+                    <canvas id="{{card.dropdown_body.piechart.canvas_id}}"></canvas>
+                </div>
+                <div class="mt-4 text-center small">
+                    {%for item in card.dropdown_body.piechart.span_items%}
+                    <span class="mr-2">
+                        <i class="{{item.i_class}}">{{item.text}}</i>
+                    </span>
+                    {%endfor%}
+
+                </div>
+            </div>
+            {%endif%}
+
+        </div>
+    </div>
+    {%endfor%}
+
+
+</div>

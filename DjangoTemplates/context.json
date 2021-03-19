@@ -65,6 +65,123 @@
                 ]
                 
             }
+        },
+        {
+            "file":"sb-admin-2_template/sections/section2.html",
+            "content":{
+                "cards":[
+                   {    
+                       "div_class":"col-xl-8 col-lg-7",
+                       
+                       "dropdown_header":
+                       {
+                           "div_class":"card-header py-3 d-flex flex-row align-items-center justify-content-between",
+                           "text_class":"m-0 font-weight-bold text-primary",
+                           "text":"Earnings Overview",
+                           "button":{
+                               "href":"#",
+                               "role":"button",
+                               "id":"dropdownMenuLink",
+                               "i_class":"fas fa-ellipsis-v fa-sm fa-fw text-gray-400"
+                           },
+
+                           "menu":{
+                               "class":"dropdown-menu dropdown-menu-right shadow animated--fade-in",
+                               "label":"dropdownMenuLink",
+                               "header":"Dropdown Header:",
+                               "items":[
+                                   {
+                                       "href":"#",
+                                       "text":"Action"
+                                   },
+                                   {
+                                       "href":"#",
+                                       "text":"Another action"
+                                   }
+                               ],
+                               "items_after_divider":[
+                                   {
+                                       "href":"#",
+                                       "text":"Something else here"
+                                   }
+                               ]
+                           }
+
+                       },
+                       "dropdown_body":
+                       {
+                           "is_areachart":"",
+                           "chart_class":"chart-area",
+                           "canvas_id":"myAreaChart"
+
+                       }
+                   },
+                   {
+                    "div_class":"col-xl-4 col-lg-5",
+                    "dropdown_header":
+                    {
+                        "div_class":"card-header py-3 d-flex flex-row align-items-center justify-content-between",
+                        "text_class":"m-0 font-weight-bold text-primary",
+                        "text":"Revenue Sources",
+                        "button":{
+                            "href":"#",
+                            "role":"button",
+                            "id":"dropdownMenuLink",
+                            "i_class":"fas fa-ellipsis-v fa-sm fa-fw text-gray-400"
+                        },
+
+                        "menu":{
+                            "class":"dropdown-menu dropdown-menu-right shadow animated--fade-in",
+                            "label":"dropdownMenuLink",
+                            "header":"Dropdown Header:",
+                            "items":[
+                                {
+                                    "href":"#",
+                                    "text":"Action"
+                                },
+                                {
+                                    "href":"#",
+                                    "text":"Another action"
+                                }
+                            ],
+                            "items_after_divider":[
+                                {
+                                    "href":"#",
+                                    "text":"Something else here"
+                                }
+                            ]
+                        }
+
+                    },
+                    "dropdown_body":
+                    {
+                        "is_piechart":"",
+                        "piechart":{
+                            "chart_class":"chart-pie pt-4 pb-2",
+                            "canvas_id":"myPieChart",
+                            "span_items":[{
+                                "i_class":"fas fa-circle text-primary",
+                                "text":"Direct"
+                            },
+                            {
+                                "i_class":"fas fa-circle text-success",
+                                "text":"Social"
+                            },
+                            {
+                                "i_class":"fas fa-circle text-info",
+                                "text":"Referral"
+                            }
+
+                            ]
+                        }
+
+                    }
+                }
+                   
+                ]
+
+
+            }
         }
     ]
 }

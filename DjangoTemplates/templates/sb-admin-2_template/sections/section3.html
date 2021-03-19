@@ -14,7 +14,7 @@
                                         {%for item in section.content.project_progressbars.items%}
                                     <h4 class="{{item.heading_class}}">{{item.heading_text}} <span
                                             class="float-right">{{item.span_text}}</span></h4>
-                                    <div class="progress mb-4">
+                                    <div class="{{item.bar.div_class}}">
                                         <div class="{{item.bar.class}}" role="{{item.bar.role}}" style="{{item.bar.style}}"
                                             aria-valuenow="{{item.bar.value_now}}" aria-valuemin="{{item.bar.value_min}}" aria-valuemax="{{item.bar.value_max}}"></div>
                                     </div>

@@ -199,6 +199,7 @@
                          "heading_text":"Server Migration",
                          "span_text":"20%",
                          "bar":{
+                             "div_class":"progress mb-4",
                              "class":"progress-bar bg-danger",
                              "role":"progressbar",
                              "style":"width: 20%",
@@ -213,6 +214,7 @@
                             "heading_text":"Sales Tracking",
                             "span_text":"40%",
                             "bar":{
+                                "div_class":"progress mb-4",
                                 "class":"progress-bar bg-warning",
                                 "role":"progressbar",
                                 "style":"width: 40%",
@@ -227,6 +229,7 @@
                             "heading_text":"Customer Database",
                             "span_text":"60%",
                             "bar":{
+                                "div_class":"progress mb-4",
                                 "class":"progress-bar",
                                 "role":"progressbar",
                                 "style":"width: 60%",
@@ -241,6 +244,7 @@
                             "heading_text":"Payout Details",
                             "span_text":"80%",
                             "bar":{
+                                "div_class":"progress mb-4",
                                 "class":"progress-bar bg-info",
                                 "role":"progressbar",
                                 "style":"width: 80%",
@@ -255,6 +259,7 @@
                             "heading_text":"Account Setup",
                             "span_text":"Complete!",
                             "bar":{
+                                "div_class":"progress",
                                 "class":"progress-bar bg-success",
                                 "role":"progressbar",
                                 "style":"width: 100%",

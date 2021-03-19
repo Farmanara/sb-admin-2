@@ -162,15 +162,15 @@
                             "canvas_id":"myPieChart",
                             "span_items":[{
                                 "i_class":"fas fa-circle text-primary",
-                                "text":"Direct"
+                                "text":" Direct"
                             },
                             {
                                 "i_class":"fas fa-circle text-success",
-                                "text":"Social"
+                                "text":" Social"
                             },
                             {
                                 "i_class":"fas fa-circle text-info",
-                                "text":"Referral"
+                                "text":" Referral"
                             }
 
                             ]

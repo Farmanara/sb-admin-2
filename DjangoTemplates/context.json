@@ -153,9 +153,10 @@
                         }
 
                     },
+
                     "dropdown_body":
                     {
-                        "is_piechart":"",
+                        "is_piechart":"true",
                         "piechart":{
                             "chart_class":"chart-pie pt-4 pb-2",
                             "canvas_id":"myPieChart",

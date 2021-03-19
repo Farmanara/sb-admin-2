@@ -321,7 +321,7 @@
                         {
                             "class":"card bg-light text-black shadow",
                             "title":"Light",
-                            "text_class":"text-white-50 small",
+                            "text_class":"text-black-50 small",
                             "text":"#f8f9fc"
 
 

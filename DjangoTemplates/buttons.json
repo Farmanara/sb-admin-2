@@ -102,69 +102,8 @@
                         "i_class":"fas fa-trash"
                     }
                 ]
-            },
-            {
-                "class":"mb-2",
-                "code":".btn-circle",
-                "icons":[
-                    {
-                        "href":"#",
-                        "class":"",
-                        "i_class":""
-                    },
-                    {
-                        "href":"#",
-                        "class":"",
-                        "i_class":""
-                    },
-                    {
-                        "href":"#",
-                        "class":"",
-                        "i_class":""
-                    },
-                    {
-                        "href":"#",
-                        "class":"",
-                        "i_class":""
-                    },
-                    {
-                        "href":"#",
-                        "class":"",
-                        "i_class":""
-                    }
-                ]
-            },
-            {
-                "class":"mb-2",
-                "code":".btn-circle",
-                "icons":[
-                    {
-                        "href":"#",
-                        "class":"",
-                        "i_class":""
-                    },
-                    {
-                        "href":"#",
-                        "class":"",
-                        "i_class":""
-                    },
-                    {
-                        "href":"#",
-                        "class":"",
-                        "i_class":""
-                    },
-                    {
-                        "href":"#",
-                        "class":"",
-                        "i_class":""
-                    },
-                    {
-                        "href":"#",
-                        "class":"",
-                        "i_class":""
-                    }
-                ]
             }
+           
         ]
     }
 

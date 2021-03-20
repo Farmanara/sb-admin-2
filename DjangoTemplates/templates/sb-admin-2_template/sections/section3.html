@@ -44,33 +44,30 @@
                             <!-- Illustrations -->
                             <div class="card shadow mb-4">
                                 <div class="card-header py-3">
-                                    <h6 class="m-0 font-weight-bold text-primary">Illustrations</h6>
+                                    <h6 class="{{section.illustrations.heading_class}}">{{section.illustrations.heading_text}}</h6>
                                 </div>
+                                
                                 <div class="card-body">
+
+
                                     <div class="text-center">
-                                        <img class="img-fluid px-3 px-sm-4 mt-3 mb-4" style="width: 25rem;"
-                                            src="{%static 'sb-admin-2_template/assets/img/undraw_posting_photo.svg'%}" alt="">
+                                        <img class="{{section.illustrations.body.img.class}}" style="{{section.illustrations.body.img.style}}"
+                                            src="{%static section.illustrations.body.img.src%}" alt="{{section.illustrations.body.img.alt}}">
                                     </div>
-                                    <p>Add some quality, svg illustrations to your project courtesy of <a
-                                            target="_blank" rel="nofollow" href="https://undraw.co/">unDraw</a>, a
-                                        constantly updated collection of beautiful svg images that you can use
-                                        completely free and without attribution!</p>
-                                    <a target="_blank" rel="nofollow" href="https://undraw.co/">Browse Illustrations on
-                                        unDraw &rarr;</a>
+                                    <p>{{section.illustrations.body.text.first_part}}<a
+                                            target="{{section.illustrations.body.text.link_1.target}}" rel="{{section.illustrations.body.text.link_1.rel}}" href="{{section.illustrations.body.text.link_1.href}}">{{section.illustrations.body.text.link_1.text}}</a>{{section.illustrations.body.text.link_1.text}}</p>
+                                    <a target="section.illustrations.body.text.link_2.target" rel="{{section.illustrations.body.text.link_2.rel}}" href="{{section.illustrations.body.text.link_2.href}}">{{section.illustrations.body.text.link_2.text}}</a>
                                 </div>
                             </div>
 
                             <!-- Approach -->
                             <div class="card shadow mb-4">
                                 <div class="card-header py-3">
-                                    <h6 class="m-0 font-weight-bold text-primary">Development Approach</h6>
+                                    <h6 class="{{section.approach.heading_class}}">{{section.approach.heading_text}}</h6>
                                 </div>
                                 <div class="card-body">
-                                    <p>SB Admin 2 makes extensive use of Bootstrap 4 utility classes in order to reduce
-                                        CSS bloat and poor page performance. Custom CSS classes are used to create
-                                        custom components and custom utility classes.</p>
-                                    <p class="mb-0">Before working with this theme, you should become familiar with the
-                                        Bootstrap framework, especially the utility classes.</p>
+                                    <p>{{section.approach.body.first_part}}</p>
+                                    <p class="{{section.approach.body.second_part.class}}">{{section.approach.body.second_part.text}}</p>
                                 </div>
                             </div>
 

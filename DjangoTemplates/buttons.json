@@ -1,0 +1,171 @@
+{
+    "heading":{
+        "class":"h3 mb-4 text-gray-800",
+        "text":"Buttons"
+    },
+    "circle_buttons_cards":{
+        "heading":{
+            "class":"m-0 font-weight-bold text-primary",
+            "text":"Circle Buttons",
+            "description":""
+        },
+        "buttons_list":[
+            {
+                "class":"mb-2",
+                "code":".btn-circle",
+                "icons":[
+                    {
+                        "href":"#",
+                        "class":"btn btn-primary btn-circle",
+                        "i_class":"fab fa-facebook-f"
+                    },
+                    {
+                        "href":"#",
+                        "class":"btn btn-success btn-circle",
+                        "i_class":"fas fa-check"
+                    },
+                    {
+                        "href":"#",
+                        "class":"btn btn-info btn-circle",
+                        "i_class":"fas fa-info-circle"
+                    },
+                    {
+                        "href":"#",
+                        "class":"btn btn-warning btn-circle",
+                        "i_class":"fas fa-exclamation-triangle"
+                    },
+                    {
+                        "href":"#",
+                        "class":"btn btn-danger btn-circle",
+                        "i_class":"fas fa-trash"
+                    }
+                ]
+            },
+            {
+                "class":"mt-4 mb-2",
+                "code":".btn-circle .btn-sm",
+                "icons":[
+                    {
+                        "href":"#",
+                        "class":"btn btn-primary btn-circle btn-sm",
+                        "i_class":"fab fa-facebook-f"
+                    },
+                    {
+                        "href":"#",
+                        "class":"btn btn-success btn-circle btn-sm",
+                        "i_class":"fas fa-check"
+                    },
+                    {
+                        "href":"#",
+                        "class":"btn btn-info btn-circle btn-sm",
+                        "i_class":"fas fa-info-circle"
+                    },
+                    {
+                        "href":"#",
+                        "class":"btn btn-warning btn-circle btn-sm",
+                        "i_class":"fas fa-exclamation-triangle"
+                    },
+                    {
+                        "href":"#",
+                        "class":"btn btn-danger btn-circle btn-sm",
+                        "i_class":"fas fa-trash"
+                    }
+                ]
+            },
+            {
+                "class":"mt-4 mb-2",
+                "code":".btn-circle .btn-lg",
+                "icons":[
+                    {
+                        "href":"#",
+                        "class":"btn btn-primary btn-circle btn-lg",
+                        "i_class":"fab fa-facebook-f"
+                    },
+                    {
+                        "href":"#",
+                        "class":"btn btn-success btn-circle btn-lg",
+                        "i_class":"fas fa-check"
+                    },
+                    {
+                        "href":"#",
+                        "class":"btn btn-info btn-circle btn-lg",
+                        "i_class":"fas fa-info-circle"
+                    },
+                    {
+                        "href":"#",
+                        "class":"btn btn-warning btn-circle btn-lg",
+                        "i_class":"fas fa-exclamation-triangle"
+                    },
+                    {
+                        "href":"#",
+                        "class":"btn btn-danger btn-circle btn-lg",
+                        "i_class":"fas fa-trash"
+                    }
+                ]
+            },
+            {
+                "class":"mb-2",
+                "code":".btn-circle",
+                "icons":[
+                    {
+                        "href":"#",
+                        "class":"",
+                        "i_class":""
+                    },
+                    {
+                        "href":"#",
+                        "class":"",
+                        "i_class":""
+                    },
+                    {
+                        "href":"#",
+                        "class":"",
+                        "i_class":""
+                    },
+                    {
+                        "href":"#",
+                        "class":"",
+                        "i_class":""
+                    },
+                    {
+                        "href":"#",
+                        "class":"",
+                        "i_class":""
+                    }
+                ]
+            },
+            {
+                "class":"mb-2",
+                "code":".btn-circle",
+                "icons":[
+                    {
+                        "href":"#",
+                        "class":"",
+                        "i_class":""
+                    },
+                    {
+                        "href":"#",
+                        "class":"",
+                        "i_class":""
+                    },
+                    {
+                        "href":"#",
+                        "class":"",
+                        "i_class":""
+                    },
+                    {
+                        "href":"#",
+                        "class":"",
+                        "i_class":""
+                    },
+                    {
+                        "href":"#",
+                        "class":"",
+                        "i_class":""
+                    }
+                ]
+            }
+        ]
+    }
+
+}

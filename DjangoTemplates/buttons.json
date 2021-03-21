@@ -7,6 +7,11 @@
         "class":"h3 mb-4 text-gray-800",
         "text":"Buttons"
     },
+    "side_bar":{
+        "nav_item_collapse_menu":{
+            "active":"True"
+        }
+    },
     "circle_buttons_cards":{
         "heading":{
             "class":"m-0 font-weight-bold text-primary",

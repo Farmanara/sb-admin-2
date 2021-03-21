@@ -1,4 +1,8 @@
 {
+
+    "head":{
+        "title":"SB Admin 2 - Buttons"
+    },
     "heading":{
         "class":"h3 mb-4 text-gray-800",
         "text":"Buttons"

@@ -16,7 +16,7 @@
         "heading":{
             "class":"m-0 font-weight-bold text-primary",
             "text":"Circle Buttons",
-            "description":""
+            "description":"Use Font Awesome Icons (included with this theme package) along with the circle buttons as shown in the examples below!"
         },
         "buttons_list":[
             {
@@ -114,6 +114,37 @@
             }
            
         ]
+    },
+    "brand_buttons":{
+        "heading":{
+            "class":"card-header py-3",
+            "text":"Brand Buttons"
+        },
+            "description":{
+                "first_paragraph":"Google and Facebook buttons are available featuring each company's respective brand color. They are used on the user login and registration pages.",
+                "second_paragraph":{
+                    "part1":"You can create more custom buttons by adding a new color variable in the",
+                    "code1":"_variables.scss",
+                    "part2":" file and then using the Bootstrap button variant mixin to create a new style, as demonstrated in the ",
+                    "code2":"_buttons.scss",
+                    "part3":"file."
+                },
+                "buttons":[
+                    {
+                        "href":"#",
+                        "class":"btn btn-google btn-block",
+                        "i_class":"fab fa-google fa-fw",
+                        "text":".btn-google"
+                    },
+                    {
+                        "href":"#",
+                        "class":"btn btn-facebook btn-block",
+                        "i_class":"fab fa-facebook-f fa-fw",
+                        "text":" .btn-facebook"
+                    }
+                ]
+            }
+
     }
 
 }

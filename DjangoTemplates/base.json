@@ -3,7 +3,8 @@
 
     },
     "head": {
-        "title":"SB Admin 2 - Dashboard"
+        "title":""
+        
 
     },
     "side_bar":{
@@ -16,6 +17,7 @@
         },
         
         "nav_item_dashboard" : {
+            "active":"",
             "href":"index.html",
             "i_class":"fas fa-fw fa-tachometer-alt",
             "span_text":"Dashboard"
@@ -23,13 +25,15 @@
         "side_bar_heading":"Interface",
 
         "nav_item_collapse_menu":{
+            "active":"",
+            "collapsed":"",
             "href":"#",
             "i_class":"fas fa-fw fa-cog",
             "span_text":"Components",
             "collapse_header":"Custom Components",
             "collapse_items":[
                 {
-                    "href":"buttons.html",
+                    "href":"buttons.html?contexts=buttons.json",
                     "text":"Buttons"
                 },
                 {

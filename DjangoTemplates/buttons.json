@@ -1,150 +1,246 @@
 {
-
-    "head":{
-        "title":"SB Admin 2 - Buttons"
+    "head": {
+        "title": "SB Admin 2 - Buttons"
     },
-    "heading":{
-        "class":"h3 mb-4 text-gray-800",
-        "text":"Buttons"
+    "heading": {
+        "class": "h3 mb-4 text-gray-800",
+        "text": "Buttons"
     },
-    "side_bar":{
-        "nav_item_collapse_menu":{
-            "active":"True"
+    "side_bar": {
+        "nav_item_collapse_menu": {
+            "active": "True"
         }
     },
-    "circle_buttons_cards":{
-        "heading":{
-            "class":"m-0 font-weight-bold text-primary",
-            "text":"Circle Buttons",
-            "description":"Use Font Awesome Icons (included with this theme package) along with the circle buttons as shown in the examples below!"
+    "circle_buttons_cards": {
+        "heading": {
+            "class": "m-0 font-weight-bold text-primary",
+            "text": "Circle Buttons",
+            "description": "Use Font Awesome Icons (included with this theme package) along with the circle buttons as shown in the examples below!"
         },
-        "buttons_list":[
+        "buttons_list": [
             {
-                "class":"mb-2",
-                "code":".btn-circle",
-                "icons":[
+                "class": "mb-2",
+                "code": ".btn-circle",
+                "icons": [
                     {
-                        "href":"#",
-                        "class":"btn btn-primary btn-circle",
-                        "i_class":"fab fa-facebook-f"
+                        "href": "#",
+                        "class": "btn btn-primary btn-circle",
+                        "i_class": "fab fa-facebook-f"
                     },
                     {
-                        "href":"#",
-                        "class":"btn btn-success btn-circle",
-                        "i_class":"fas fa-check"
+                        "href": "#",
+                        "class": "btn btn-success btn-circle",
+                        "i_class": "fas fa-check"
                     },
                     {
-                        "href":"#",
-                        "class":"btn btn-info btn-circle",
-                        "i_class":"fas fa-info-circle"
+                        "href": "#",
+                        "class": "btn btn-info btn-circle",
+                        "i_class": "fas fa-info-circle"
                     },
                     {
-                        "href":"#",
-                        "class":"btn btn-warning btn-circle",
-                        "i_class":"fas fa-exclamation-triangle"
+                        "href": "#",
+                        "class": "btn btn-warning btn-circle",
+                        "i_class": "fas fa-exclamation-triangle"
                     },
                     {
-                        "href":"#",
-                        "class":"btn btn-danger btn-circle",
-                        "i_class":"fas fa-trash"
+                        "href": "#",
+                        "class": "btn btn-danger btn-circle",
+                        "i_class": "fas fa-trash"
                     }
                 ]
             },
             {
-                "class":"mt-4 mb-2",
-                "code":".btn-circle .btn-sm",
-                "icons":[
+                "class": "mt-4 mb-2",
+                "code": ".btn-circle .btn-sm",
+                "icons": [
                     {
-                        "href":"#",
-                        "class":"btn btn-primary btn-circle btn-sm",
-                        "i_class":"fab fa-facebook-f"
+                        "href": "#",
+                        "class": "btn btn-primary btn-circle btn-sm",
+                        "i_class": "fab fa-facebook-f"
                     },
                     {
-                        "href":"#",
-                        "class":"btn btn-success btn-circle btn-sm",
-                        "i_class":"fas fa-check"
+                        "href": "#",
+                        "class": "btn btn-success btn-circle btn-sm",
+                        "i_class": "fas fa-check"
                     },
                     {
-                        "href":"#",
-                        "class":"btn btn-info btn-circle btn-sm",
-                        "i_class":"fas fa-info-circle"
+                        "href": "#",
+                        "class": "btn btn-info btn-circle btn-sm",
+                        "i_class": "fas fa-info-circle"
                     },
                     {
-                        "href":"#",
-                        "class":"btn btn-warning btn-circle btn-sm",
-                        "i_class":"fas fa-exclamation-triangle"
+                        "href": "#",
+                        "class": "btn btn-warning btn-circle btn-sm",
+                        "i_class": "fas fa-exclamation-triangle"
                     },
                     {
-                        "href":"#",
-                        "class":"btn btn-danger btn-circle btn-sm",
-                        "i_class":"fas fa-trash"
+                        "href": "#",
+                        "class": "btn btn-danger btn-circle btn-sm",
+                        "i_class": "fas fa-trash"
                     }
                 ]
             },
             {
-                "class":"mt-4 mb-2",
-                "code":".btn-circle .btn-lg",
-                "icons":[
+                "class": "mt-4 mb-2",
+                "code": ".btn-circle .btn-lg",
+                "icons": [
                     {
-                        "href":"#",
-                        "class":"btn btn-primary btn-circle btn-lg",
-                        "i_class":"fab fa-facebook-f"
+                        "href": "#",
+                        "class": "btn btn-primary btn-circle btn-lg",
+                        "i_class": "fab fa-facebook-f"
                     },
                     {
-                        "href":"#",
-                        "class":"btn btn-success btn-circle btn-lg",
-                        "i_class":"fas fa-check"
+                        "href": "#",
+                        "class": "btn btn-success btn-circle btn-lg",
+                        "i_class": "fas fa-check"
                     },
                     {
-                        "href":"#",
-                        "class":"btn btn-info btn-circle btn-lg",
-                        "i_class":"fas fa-info-circle"
+                        "href": "#",
+                        "class": "btn btn-info btn-circle btn-lg",
+                        "i_class": "fas fa-info-circle"
                     },
                     {
-                        "href":"#",
-                        "class":"btn btn-warning btn-circle btn-lg",
-                        "i_class":"fas fa-exclamation-triangle"
+                        "href": "#",
+                        "class": "btn btn-warning btn-circle btn-lg",
+                        "i_class": "fas fa-exclamation-triangle"
                     },
                     {
-                        "href":"#",
-                        "class":"btn btn-danger btn-circle btn-lg",
-                        "i_class":"fas fa-trash"
+                        "href": "#",
+                        "class": "btn btn-danger btn-circle btn-lg",
+                        "i_class": "fas fa-trash"
                     }
                 ]
             }
-           
         ]
     },
-    "brand_buttons":{
-        "heading":{
-            "class":"card-header py-3",
-            "text":"Brand Buttons"
+    "brand_buttons": {
+        "heading": {
+            "class": "card-header py-3",
+            "text": "Brand Buttons"
         },
-            "description":{
-                "first_paragraph":"Google and Facebook buttons are available featuring each company's respective brand color. They are used on the user login and registration pages.",
-                "second_paragraph":{
-                    "part1":"You can create more custom buttons by adding a new color variable in the",
-                    "code1":"_variables.scss",
-                    "part2":" file and then using the Bootstrap button variant mixin to create a new style, as demonstrated in the ",
-                    "code2":"_buttons.scss",
-                    "part3":"file."
+        "description": {
+            "first_paragraph": "Google and Facebook buttons are available featuring each company's respective brand color. They are used on the user login and registration pages.",
+            "second_paragraph": {
+                "part1": "You can create more custom buttons by adding a new color variable in the",
+                "code1": "_variables.scss",
+                "part2": " file and then using the Bootstrap button variant mixin to create a new style, as demonstrated in the ",
+                "code2": "_buttons.scss",
+                "part3": "file."
+            },
+            "buttons": [
+                {
+                    "href": "#",
+                    "class": "btn btn-google btn-block",
+                    "i_class": "fab fa-google fa-fw",
+                    "text": ".btn-google"
                 },
-                "buttons":[
-                    {
-                        "href":"#",
-                        "class":"btn btn-google btn-block",
-                        "i_class":"fab fa-google fa-fw",
-                        "text":".btn-google"
-                    },
-                    {
-                        "href":"#",
-                        "class":"btn btn-facebook btn-block",
-                        "i_class":"fab fa-facebook-f fa-fw",
-                        "text":" .btn-facebook"
-                    }
-                ]
+                {
+                    "href": "#",
+                    "class": "btn btn-facebook btn-block",
+                    "i_class": "fab fa-facebook-f fa-fw",
+                    "text": " .btn-facebook"
+                }
+            ]
+        }
+    },
+    "split_buttons": {
+        "heading": {
+            "class": "m-0 font-weight-bold text-primary",
+            "text": "Split Buttons with Icon"
+        },
+        "description": {
+            "part1": "Works with any button colors, just use the ",
+            "code1": ".btn-icon-split",
+            "part2": " class and the markup in the examples below. The examples below also use the",
+            "code2": ".text-white-50",
+            "part3": " helper class on the icons for additional styling, but it is not required."
+        },
+        "buttons": [
+            {
+                "href":"#",
+                "class":"btn btn-primary btn-icon-split",
+                "span_class":"icon text-white-50",
+                "i_class":"fas fa-flag",
+                "text_class":"text",
+                "text":"Split Button Primary"
+            },
+            {
+                "href":"#",
+                "class":"btn btn-success btn-icon-split",
+                "span_class":"icon text-white-50",
+                "i_class":"fas fa-check",
+                "text_class":"text",
+                "text":"Split Button Success",
+                "space_class":"my-2"
+            },
+            {
+                "href":"#",
+                "class":"btn btn-info btn-icon-split",
+                "span_class":"icon text-white-50",
+                "i_class":"fas fa-info-circle",
+                "text_class":"text",
+                "text":"Split Button Info",
+                "space_class":"my-2"
+            },
+           
+            {
+                "href":"#",
+                "class":"btn btn-warning btn-icon-split",
+                "span_class":"icon text-white-50",
+                "i_class":"fas fa-exclamation-triangle",
+                "text_class":"text",
+                "text":"Split Button Warning",
+                "space_class":"my-2"
+            },
+            {
+                "href":"#",
+                "class":"btn btn-danger btn-icon-split",
+                "span_class":"icon text-white-50",
+                "i_class":"fas fa-trash",
+                "text_class":"text",
+                "text":"Split Button Danger",
+                "space_class":"my-2"
+            },
+            {
+                "href":"#",
+                "class":"btn btn-secondary btn-icon-split",
+                "span_class":"icon text-white-50",
+                "i_class":"fas fa-arrow-right",
+                "text_class":"text",
+                "text":"Split Button Secondary",
+                "space_class":"my-2"
             }
-
+            ,
+            {
+                "href":"#",
+                "class":"btn btn-light btn-icon-split",
+                "span_class":"icon text-gray-600",
+                "i_class":"fas fa-arrow-right",
+                "text_class":"text",
+                "text":"Split Button Light",
+                "space_class":"my-2"
+            },
+            
+            {
+                "href":"#",
+                "class":"btn btn-primary btn-icon-split btn-sm",
+                "span_class":"icon text-white-50",
+                "i_class":"fas fa-flag",
+                "text_class":"text",
+                "text":"Split Button Small",
+                "space_class":"my-4",
+                "description":"Also works with small and large button classes!"
+            },
+            
+            {
+                "href":"#",
+                "class":"btn btn-primary btn-icon-split btn-lg",
+                "span_class":"icon text-white-50",
+                "i_class":"fas fa-flag",
+                "text_class":"text",
+                "text":"Split Button Large",
+                "space_class":"my-2"
+            }
+        ]
     }
-
 }

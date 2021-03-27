@@ -1,105 +1,107 @@
 {%extends "sb-admin-2_template/base.html"%}
 
-                <!-- Begin Page Content -->
-          
-          {%block content%}
+<!-- Begin Page Content -->
 
-                    <!-- Page Heading -->
-                    
-                    <h1 class="{{heading.class}}">{{heading.text}}</h1>
+{%block content%}
 
-                    <div class="row">
+<!-- Page Heading -->
 
-                        <div class="col-lg-6">
+<h1 class="{{heading.class}}">{{heading.text}}</h1>
 
-                            <!-- Circle Buttons -->
-                            <div class="card shadow mb-4">
-                                <div class="card-header py-3">
-                                    <h6 class="m-0 font-weight-bold text-primary">{{circle_buttons_cards.heading.text}}</h6>
-                                </div>
-                                <div class="card-body">
-                                    <p>{{circle_buttons_cards.heading.description}}</p>
+<div class="row">
 
-                                    {%for item in circle_buttons_cards.buttons_list%}
-                                    <!-- Circle Buttons (Default) -->
-                                    <div class="{{item.class}}">
-                                        <code>{{item.code}}</code>
-                                    </div>
-                                    {%for icon in item.icons%}
-                                    <a href="{{icon.href}}" class="{{icon.class}}">
-                                        <i class="{{icon.i_class}}"></i>
-                                    </a>
-                                    {%endfor%}
-                                    {%endfor%}
+    <div class="col-lg-6">
 
+        <!-- Circle Buttons -->
+        <div class="card shadow mb-4">
+            <div class="card-header py-3">
+                <h6 class="m-0 font-weight-bold text-primary">{{circle_buttons_cards.heading.text}}</h6>
+            </div>
+            <div class="card-body">
+                <p>{{circle_buttons_cards.heading.description}}</p>
 
-
-                                   
-                                </div>
-                            </div>
-
-                            <!-- Brand Buttons -->
-                            <div class="card shadow mb-4">
-                                <div class="card-header py-3">
-                                    <h6 class="m-0 font-weight-bold text-primary">Brand Buttons</h6>
-                                </div>
-                                <div class="card-body">
-                                    <p>{{brand_buttons.description.first_paragraph}}</p>
-                                    <p>{{brand_buttons.description.second_paragraph.part1}}
-                                        <code>{{brand_buttons.description.second_paragraph.code1}}</code>{{brand_buttons.description.second_paragraph.part2}}<code>{{brand_buttons.description.second_paragraph.code2}}</code>
-                                        {{brand_buttons.description.second_paragraph.part3}}</p>
-                                    {%for button in brand_buttons.description.buttons%}
-                                    <a href="{{button.href}}" class="{{button.class}}"><i class="{{button.i_class}}"></i>
-                                        {{button.text}}</a>
-
-                                    {%endfor%}
-                          
-
-                                </div>
-                            </div>
-
-                        </div>
-
-                        <div class="col-lg-6">
-
-                            <div class="card shadow mb-4">
-
-                                <div class="card-header py-3">
-                                    <h6 class="{{split_buttons.heading.class}}">{{split_buttons.heading.text}}</h6>
-                                </div>
-                                <div class="card-body">
-                                    <p>{{split_buttons.description.part1}}<code>{{split_buttons.description.code1}}</code>{{split_buttons.description.part2}}
-                                        <code>{{split_buttons.description.code2}}</code>{{split_buttons.description.part3}}</p>
-
-
-                                    {%for button in split_buttons.buttons%}    
-                                    {%if button.space_class%} <div class="{{button.space_class}}"></div>{%endif%}
-                                    {%if button.description%}<p>{{button.description}}</p> {%endif%}
-
-                                    <a href="{{button.href}}" class="{{button.class}}">
-                                        <span class="{{button.span_class}}">
-                                            <i class="{{button.i_class}}"></i>
-                                        </span>
-                                        <span class="{{button.text_class}}">{{button.text}}</span>
-                                    </a>
-                                    {%endfor%}
+                {%for item in circle_buttons_cards.buttons_list%}
+                <!-- Circle Buttons (Default) -->
+                <div class="{{item.class}}">
+                    <code>{{item.code}}</code>
+                </div>
+                {%for icon in item.icons%}
+                <a href="{{icon.href}}" class="{{icon.class}}">
+                    <i class="{{icon.i_class}}"></i>
+                </a>
+                {%endfor%}
+                {%endfor%}
 
 
 
-                                  
-                                   
-                                    
-                                  
-                                    
-                                  
-                                </div>
-                            </div>
 
-                        </div>
+            </div>
+        </div>
 
-                    </div>
+        <!-- Brand Buttons -->
+        <div class="card shadow mb-4">
+            <div class="card-header py-3">
+                <h6 class="m-0 font-weight-bold text-primary">Brand Buttons</h6>
+            </div>
+            <div class="card-body">
+                <p>{{brand_buttons.description.first_paragraph}}</p>
+                <p>{{brand_buttons.description.second_paragraph.part1}}
+                    <code>{{brand_buttons.description.second_paragraph.code1}}</code>{{brand_buttons.description.second_paragraph.part2}}<code>{{brand_buttons.description.second_paragraph.code2}}</code>
+                    {{brand_buttons.description.second_paragraph.part3}}
+                </p>
+                {%for button in brand_buttons.description.buttons%}
+                <a href="{{button.href}}" class="{{button.class}}"><i class="{{button.i_class}}"></i>
+                    {{button.text}}</a>
 
-               
-               
-            <!-- End of Main Content -->
+                {%endfor%}
+
+
+            </div>
+        </div>
+
+    </div>
+
+    <div class="col-lg-6">
+
+        <div class="card shadow mb-4">
+
+            <div class="card-header py-3">
+                <h6 class="{{split_buttons.heading.class}}">{{split_buttons.heading.text}}</h6>
+            </div>
+            <div class="card-body">
+                <p>{{split_buttons.description.part1}}<code>{{split_buttons.description.code1}}</code>{{split_buttons.description.part2}}
+                    <code>{{split_buttons.description.code2}}</code>{{split_buttons.description.part3}}
+                </p>
+
+
+                {%for button in split_buttons.buttons%}
+                {%if button.space_class%} <div class="{{button.space_class}}"></div>{%endif%}
+                {%if button.description%}<p>{{button.description}}</p> {%endif%}
+
+                <a href="{{button.href}}" class="{{button.class}}">
+                    <span class="{{button.span_class}}">
+                        <i class="{{button.i_class}}"></i>
+                    </span>
+                    <span class="{{button.text_class}}">{{button.text}}</span>
+                </a>
+                {%endfor%}
+
+
+
+
+
+
+
+
+
+            </div>
+        </div>
+
+    </div>
+
+</div>
+
+
+
+<!-- End of Main Content -->
 {%endblock%}

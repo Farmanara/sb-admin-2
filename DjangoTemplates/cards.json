@@ -66,7 +66,7 @@
                     "header": {
                         "div_class": "card-header py-3 d-flex flex-row align-items-center justify-content-between",
                         "text_class": "m-0 font-weight-bold text-primary",
-                        "text": "Earnings Overview",
+                        "text": "Dropdown Card Example",
                         "button": {
                             "href": "#",
                             "role": "button",

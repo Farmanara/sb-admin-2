@@ -1,5 +1,60 @@
 {
     "head":{
         "title":"SB Admin 2 - Cards"
+    },
+    "sections":[
+        {
+        "file":"sb-admin-2_template/sections/section1.html",
+        "content":{
+            "cards":[
+                {
+                    "border_class":"card border-left-primary shadow h-100 py-2",
+                    "title_class":"text-xs font-weight-bold text-primary text-uppercase mb-1",
+                    "title":"Earnings (Monthly)",
+                    "text_class":"h5 mb-0 font-weight-bold text-gray-800",
+                    "text":"$40,000",
+                    "i_class":"fas fa-calendar fa-2x text-gray-300"
+
+                },
+                {
+                    "border_class":"card border-left-success shadow h-100 py-2",
+                    "title_class":"text-xs font-weight-bold text-success text-uppercase mb-1",
+                    "title":"Earnings (Annual)",
+                    "text_class":"h5 mb-0 font-weight-bold text-gray-800",
+                    "text":"$215,000",
+                    "i_class":"fas fa-dollar-sign fa-2x text-gray-300"
+
+                },{
+                    
+                    "border_class":"card border-left-info shadow h-100 py-2",
+                    "title_class":"text-xs font-weight-bold text-info text-uppercase mb-1",
+                    "title":"Tasks",
+                    "text_class":"h5 mb-0 mr-3 font-weight-bold text-gray-800",
+                    "text":"50%",
+                    "progress_bar":{
+                        "class":"progress-bar bg-info",
+                        "role":"progressbar",
+                        "style":"width: 50%",
+                        "value_now":"50",
+                        "value_min":"0",
+                        "value_max":"100"
+                    },
+
+                    "i_class":"fas fa-clipboard-list fa-2x text-gray-300"
+
+                },{
+                    "border_class":"card border-left-warning shadow h-100 py-2",
+                    "title_class":"text-xs font-weight-bold text-warning text-uppercase mb-1",
+                    "title":"Pending Requests",
+                    "text_class":"h5 mb-0 font-weight-bold text-gray-800",
+                    "text":"18",
+                    "i_class":"fas fa-comments fa-2x text-gray-300"
+
+                }
+
+            ]
+            
+        }
     }
+    ]
 }

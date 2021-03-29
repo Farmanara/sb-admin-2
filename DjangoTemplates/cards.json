@@ -1,60 +1,107 @@
 {
-    "head":{
-        "title":"SB Admin 2 - Cards"
+    "head": {
+        "title": "SB Admin 2 - Cards"
     },
-    "sections":[
+    "sections": [
         {
-        "file":"sb-admin-2_template/sections/section1.html",
-        "content":{
-            "cards":[
-                {
-                    "border_class":"card border-left-primary shadow h-100 py-2",
-                    "title_class":"text-xs font-weight-bold text-primary text-uppercase mb-1",
-                    "title":"Earnings (Monthly)",
-                    "text_class":"h5 mb-0 font-weight-bold text-gray-800",
-                    "text":"$40,000",
-                    "i_class":"fas fa-calendar fa-2x text-gray-300"
-
-                },
-                {
-                    "border_class":"card border-left-success shadow h-100 py-2",
-                    "title_class":"text-xs font-weight-bold text-success text-uppercase mb-1",
-                    "title":"Earnings (Annual)",
-                    "text_class":"h5 mb-0 font-weight-bold text-gray-800",
-                    "text":"$215,000",
-                    "i_class":"fas fa-dollar-sign fa-2x text-gray-300"
-
-                },{
-                    
-                    "border_class":"card border-left-info shadow h-100 py-2",
-                    "title_class":"text-xs font-weight-bold text-info text-uppercase mb-1",
-                    "title":"Tasks",
-                    "text_class":"h5 mb-0 mr-3 font-weight-bold text-gray-800",
-                    "text":"50%",
-                    "progress_bar":{
-                        "class":"progress-bar bg-info",
-                        "role":"progressbar",
-                        "style":"width: 50%",
-                        "value_now":"50",
-                        "value_min":"0",
-                        "value_max":"100"
+            "file": "sb-admin-2_template/sections/section1.html",
+            "content": {
+                "cards": [
+                    {
+                        "border_class": "card border-left-primary shadow h-100 py-2",
+                        "title_class": "text-xs font-weight-bold text-primary text-uppercase mb-1",
+                        "title": "Earnings (Monthly)",
+                        "text_class": "h5 mb-0 font-weight-bold text-gray-800",
+                        "text": "$40,000",
+                        "i_class": "fas fa-calendar fa-2x text-gray-300"
                     },
-
-                    "i_class":"fas fa-clipboard-list fa-2x text-gray-300"
-
-                },{
-                    "border_class":"card border-left-warning shadow h-100 py-2",
-                    "title_class":"text-xs font-weight-bold text-warning text-uppercase mb-1",
-                    "title":"Pending Requests",
-                    "text_class":"h5 mb-0 font-weight-bold text-gray-800",
-                    "text":"18",
-                    "i_class":"fas fa-comments fa-2x text-gray-300"
-
+                    {
+                        "border_class": "card border-left-success shadow h-100 py-2",
+                        "title_class": "text-xs font-weight-bold text-success text-uppercase mb-1",
+                        "title": "Earnings (Annual)",
+                        "text_class": "h5 mb-0 font-weight-bold text-gray-800",
+                        "text": "$215,000",
+                        "i_class": "fas fa-dollar-sign fa-2x text-gray-300"
+                    },
+                    {
+                        "border_class": "card border-left-info shadow h-100 py-2",
+                        "title_class": "text-xs font-weight-bold text-info text-uppercase mb-1",
+                        "title": "Tasks",
+                        "text_class": "h5 mb-0 mr-3 font-weight-bold text-gray-800",
+                        "text": "50%",
+                        "progress_bar": {
+                            "class": "progress-bar bg-info",
+                            "role": "progressbar",
+                            "style": "width: 50%",
+                            "value_now": "50",
+                            "value_min": "0",
+                            "value_max": "100"
+                        },
+                        "i_class": "fas fa-clipboard-list fa-2x text-gray-300"
+                    },
+                    {
+                        "border_class": "card border-left-warning shadow h-100 py-2",
+                        "title_class": "text-xs font-weight-bold text-warning text-uppercase mb-1",
+                        "title": "Pending Requests",
+                        "text_class": "h5 mb-0 font-weight-bold text-gray-800",
+                        "text": "18",
+                        "i_class": "fas fa-comments fa-2x text-gray-300"
+                    }
+                ]
+            }
+        },
+        {
+            "file": "sb-admin-2_template/sections/section2_cards.html",
+            "content": {
+                "default_card": {
+                    "header": "Default Card Example",
+                    "description": "This card uses Bootstrap's default styling with no utility classes added. Global styles are the only things modifying the look and feel of this default card example."
+                },
+                "basic_card": {
+                    "header_class": "m-0 font-weight-bold text-primary",
+                    "header": "Basic Card Example",
+                    "description": "The styling for this basic card example is created by using default Bootstrap utility classes. By using utility classes, the style of the card component can be easily modified with no need for any custom CSS!"
+                },
+                "dropdown_card": {
+                    "header": {
+                        "div_class": "card-header py-3 d-flex flex-row align-items-center justify-content-between",
+                        "text_class": "m-0 font-weight-bold text-primary",
+                        "text": "Earnings Overview",
+                        "button": {
+                            "href": "#",
+                            "role": "button",
+                            "id": "dropdownMenuLink",
+                            "i_class": "fas fa-ellipsis-v fa-sm fa-fw text-gray-400"
+                        },
+                        "menu": {
+                            "class": "dropdown-menu dropdown-menu-right shadow animated--fade-in",
+                            "label": "dropdownMenuLink",
+                            "header": "Dropdown Header:",
+                            "items": [
+                                {
+                                    "href": "#",
+                                    "text": "Action"
+                                },
+                                {
+                                    "href": "#",
+                                    "text": "Another action"
+                                }
+                            ],
+                            "items_after_divider": [
+                                {
+                                    "href": "#",
+                                    "text": "Something else here"
+                                }
+                            ]
+                        }
+                    },
+                    "dropdown_body": {
+                        "is_areachart": "true",
+                        "chart_class": "chart-area",
+                        "canvas_id": "myAreaChart"
+                    }
                 }
-
-            ]
-            
+            }
         }
-    }
     ]
 }

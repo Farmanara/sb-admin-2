@@ -1,0 +1,80 @@
+   <div class="row">
+
+        <div class="col-lg-6">
+
+            <!-- Default Card Example -->
+            <div class="card mb-4">
+                <div class="card-header">
+                    {{section.content.default_card.header}}
+                </div>
+                <div class="card-body">
+                    {{section.content.default_card.description}}
+                </div>
+            </div>
+
+            <!-- Basic Card Example -->
+            <div class="card shadow mb-4">
+                <div class="card-header py-3">
+                    <h6 class="{{section.basic_card.header_class}}">{{section.content.basic_card.header}}</h6>
+                </div>
+                <div class="card-body">
+                    {{section.content.basic_card.description}}
+                </div>
+            </div>
+
+        </div>
+
+        <div class="col-lg-6">
+
+            <!-- Dropdown Card Example -->
+            <div class="card shadow mb-4">
+                <!-- Card Header - Dropdown -->
+         <div class="{{section.dropdown_card.header.div_class}}">
+                <h6 class="{{section.dropdown_card.header.text_class}}">{{section.dropdown_card.header.text}}</h6>
+                <div class="dropdown no-arrow">
+                    <a class="dropdown-toggle" href="{{section.dropdown_card.header.button.href}}"
+                        role="{{section.dropdown_card.header.button.role}}" id="{{section.dropdown_card.header.button.id}}"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <i class="{{section.dropdown_card.header.button.i_class}}"></i>
+                    </a>
+                    <div class="{{section.dropdown_card.header.menu.class}}"
+                        aria-labelledby="{{section.dropdown_card.header.menu.label}}">
+                        <div class="dropdown-header">{{section.dropdown_card.header.menu.header}}</div>
+                        {%for item in section.dropdown_card.header.menu.items%}
+                        <a class="dropdown-item" href="{{item.href}}">{{item.text}}</a>
+                        {%endfor%}
+                        <div class="dropdown-divider"></div>
+                        {%for item in section.dropdown_card.header.menu.items_after_divider%}
+                        <a class="dropdown-item" href="{{item.href}}">{{item.text}}</a>
+                        {%endfor%}
+                    </div>
+                </div>
+            </div>
+                <!-- Card Body -->
+                <div class="card-body">
+                    Dropdown menus can be placed in the card header in order to extend the functionality
+                    of a basic card. In this dropdown card example, the Font Awesome vertical ellipsis
+                    icon in the card header can be clicked on in order to toggle a dropdown menu.
+                </div>
+            </div>
+
+            <!-- Collapsable Card Example -->
+            <div class="card shadow mb-4">
+                <!-- Card Header - Accordion -->
+                <a href="#collapseCardExample" class="d-block card-header py-3" data-toggle="collapse" role="button"
+                    aria-expanded="true" aria-controls="collapseCardExample">
+                    <h6 class="m-0 font-weight-bold text-primary">Collapsable Card Example</h6>
+                </a>
+                <!-- Card Content - Collapse -->
+                <div class="collapse show" id="collapseCardExample">
+                    <div class="card-body">
+                        This is a collapsable card example using Bootstrap's built in collapse
+                        functionality. <strong>Click on the card header</strong> to see the card body
+                        collapse and expand!
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>

@@ -98,6 +98,20 @@
                     "dropdown_body": {
                       "text":"Dropdown menus can be placed in the card header in order to extend the functionality of a basic card. In this dropdown card example, the Font Awesome vertical ellipsis icon in the card header can be clicked on in order to toggle a dropdown menu."
                     }
+                },
+
+
+                "collapse_card":{
+                    "header":{
+                        "href":"",
+                        "text_class":"",
+                        "text":""
+                    },
+                    "description":{
+                        "part1":"This is a collapsable card example using Bootstrap's built in collapse functionality. ",
+                        "bold":"Click on the card header",
+                        "part2":" to see the card body collapse and expand!"
+                    }
                 }
             }
         }

@@ -62,14 +62,12 @@
                                             </div>
                                         </div>
 
-
-                                        {%for button in content.buttons%}
-                                        <a href="{{button.href}}" class="{{button.class}}"> <i class="{{button.i_class}}"></i> 
-                                            {{button.text}}
-                                        </a>
-                                        {%if button.hr%}
-                                        <hr>{%endif%}
-                                        {%endfor%}
+{%for button in content.buttons%}
+                                <a href="{{button.href}}" class="{{button.class}}"> {%if button.i_class%} <i class="{{button.i_class}}"></i> {%endif%}
+                                    {{button.text}}
+                                </a>
+                                {%if button.hr%} <hr>{%endif%}
+                                {%endfor%}
 
                                         
                                     </form>

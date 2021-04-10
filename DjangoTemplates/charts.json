@@ -29,7 +29,7 @@
                     "heading":"Bar Chart",
                     "description" :{
                         "part1":"Styling for the bar chart can be found in the",
-                        "code":"/js/demo/chart-area-demo.js",
+                        "code":"/js/demo/chart-bar-demo.js",
                         "part2":" file."
                     }
                 },
@@ -37,7 +37,7 @@
                     "heading":"Donut Chart",
                     "description" :{
                         "part1":"Styling for the donut chart can be found in the",
-                        "code":"/js/demo/chart-area-demo.js",
+                        "code":"/js/demo/chart-donut-demo.js",
                         "part2":" file."
                     }
                 }

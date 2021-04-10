@@ -1,0 +1,48 @@
+{
+    "head": {
+        "title": "SB Admin 2 - Charts"
+    },
+    "sections": [
+        {
+            "file": "sb-admin-2_template/sections/heading_charts.html",
+            "content": {
+                "heading": "Charts",
+                "description":"hart.js is a third party plugin that is used to generate the charts in this theme. The charts below have been customized - for further customization options, please visit the",
+                "href": "https://www.chartjs.org/docs/latest/",
+                "a_text": "official Chart.js documentation"
+            }
+        },
+            
+            {
+            "file": "sb-admin-2_template/sections/all_charts.html",
+            "content": {
+                
+                "area_chart":{
+                    "heading":"Area Chart",
+                    "description" :{
+                        "part1":"Styling for the area chart can be found in the",
+                        "code":"/js/demo/chart-area-demo.js",
+                        "part2":" file."
+                    }
+                },
+                "bar_chart":{
+                    "heading":"Bar Chart",
+                    "description" :{
+                        "part1":"Styling for the bar chart can be found in the",
+                        "code":"/js/demo/chart-area-demo.js",
+                        "part2":" file."
+                    }
+                },
+                "donut_chart":{
+                    "heading":"Donut Chart",
+                    "description" :{
+                        "part1":"Styling for the donut chart can be found in the",
+                        "code":"/js/demo/chart-area-demo.js",
+                        "part2":" file."
+                    }
+                }
+            }
+        }
+    ]
+
+}

@@ -13,7 +13,8 @@
     <title>{{head.title}}</title>
 
     <!-- Custom fonts for this template-->
-    <link href="{%static 'sb-admin-2_template/assets/vendor/fontawesome-free/css/all.min.css' %}s" rel="stylesheet" type="text/css">
+    <link href="{%static 'sb-admin-2_template/assets/vendor/fontawesome-free/css/all.min.css' %}s" rel="stylesheet"
+        type="text/css">
     <link
         href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i"
         rel="stylesheet">
@@ -46,33 +47,37 @@
                                         <div class="form-group">
                                             <input type="email" class="form-control form-control-user"
                                                 id="exampleInputEmail" aria-describedby="emailHelp"
-                                                placeholder="{{content.inputs.email.placeholer}}">
+                                                placeholder="{{content.inputs.email.placeholder}}">
                                         </div>
                                         <div class="form-group">
                                             <input type="password" class="form-control form-control-user"
-                                                id="exampleInputPassword" placeholder="{{content.inputs.password.placeholder}}">
+                                                id="exampleInputPassword"
+                                                placeholder="{{content.inputs.password.placeholder}}">
                                         </div>
                                         <div class="form-group">
                                             <div class="custom-control custom-checkbox small">
                                                 <input type="checkbox" class="custom-control-input" id="customCheck">
-                                                <label class="custom-control-label" for="customCheck">{{content.checkbox.text}}</label>
+                                                <label class="custom-control-label"
+                                                    for="customCheck">{{content.checkbox.text}}</label>
                                             </div>
                                         </div>
-                                       {%for button in content.buttons%}
-                                <a href="{{button.href}}" class="{{button.class}}"> {%if button.i_class%} <i class="{{button.i_class}}"></i> {%endif%}
-                                    {{button.text}}
-                                </a>
-                                {%if button.hr%} <hr>{%endif%}
-                                {%endfor%}
-                            </form>
-                            <hr>
-                            {%for link in content.links%}
+                                        {%for button in content.buttons%}
+                                        <a href="{{button.href}}" class="{{button.class}}"> {%if button.i_class%} <i
+                                                class="{{button.i_class}}"></i> {%endif%}
+                                            {{button.text}}
+                                        </a>
+                                        {%if button.hr%}
+                                        <hr>{%endif%}
+                                        {%endfor%}
+                                    </form>
+                                    <hr>
+                                    {%for link in content.links%}
 
-                            
-                            <div class="text-center">
-                                <a class="small" href="{{link.href}}">{{link.text}}</a>
-                            </div>
-                            {%endfor%}
+
+                                    <div class="text-center">
+                                        <a class="small" href="{{link.href}}">{{link.text}}</a>
+                                    </div>
+                                    {%endfor%}
                                 </div>
                             </div>
                         </div>

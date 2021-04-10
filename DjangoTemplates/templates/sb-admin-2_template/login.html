@@ -61,6 +61,8 @@
                                                     for="customCheck">{{content.checkbox.text}}</label>
                                             </div>
                                         </div>
+
+
                                         {%for button in content.buttons%}
                                         <a href="{{button.href}}" class="{{button.class}}"> {%if button.i_class%} <i
                                                 class="{{button.i_class}}"></i> {%endif%}
@@ -69,11 +71,11 @@
                                         {%if button.hr%}
                                         <hr>{%endif%}
                                         {%endfor%}
+
+                                        
                                     </form>
                                     <hr>
                                     {%for link in content.links%}
-
-
                                     <div class="text-center">
                                         <a class="small" href="{{link.href}}">{{link.text}}</a>
                                     </div>

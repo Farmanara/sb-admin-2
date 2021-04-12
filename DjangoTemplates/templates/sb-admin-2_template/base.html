@@ -45,9 +45,9 @@
 
             <!-- Nav Item - Dashboard -->
             <li class="nav-item {%if side_bar.nav_item_collapse_menu %} active {%endif%}">
-                <a class="nav-link" href="index.html">
-                    <i class="fas fa-fw fa-tachometer-alt"></i>
-                    <span>Dashboard</span></a>
+                <a class="nav-link" href="{{side_bar.nav_item_dashboard.href}}">
+                    <i class="side_bar.nav_item_dashboard.i_class"></i>
+                    <span>{{side_bar.nav_item_dashboard.span_text}</span></a>
             </li>
 
             <!-- Divider -->

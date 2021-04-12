@@ -17,7 +17,7 @@
         },
         
         "nav_item_dashboard" : {
-            "active":"",
+            "active":"True",
             "href":"index.html",
             "i_class":"fas fa-fw fa-tachometer-alt",
             "span_text":"Dashboard"

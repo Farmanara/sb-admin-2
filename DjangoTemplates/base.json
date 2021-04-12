@@ -13,8 +13,7 @@
             "href":"index.html",
             "i_class":"fas fa-laugh-wink",
             "text":"SB Admin",
-            "sup_text":"2",
-            "fulltext":"SB Admin <sup>3</sup>"
+            "sup_text":"2"
         },
         
         "nav_item_dashboard" : {

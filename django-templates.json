@@ -5,7 +5,7 @@
     "pages": [
       {
         "name": "Home page",
-        "contexts": ["context.json"],
+        "contexts": ["base.json, context.json"],
         "template": "sb-admin-2_template/index.html"
       },
       {

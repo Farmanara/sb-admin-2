@@ -41,37 +41,37 @@
       {
         "name": "Login",
         "contexts": ["login.json"],
-        "template": "mentor_template/login.html"
+        "template": "sb-admin-2_template/login.html"
       },
       {
         "name": "Register",
         "contexts": ["register.json"],
-        "template": "mentor_template/register.html"
+        "template": "sb-admin-2_template/register.html"
       },
       {
         "name": "Tables",
         "contexts": ["base.json","tables.json"],
-        "template": "mentor_template/tables.html"
+        "template": "sb-admin-2_template/tables.html"
       },
       {
         "name": "Utilities Animation",
         "contexts": ["base.json","utilities-animation.json"],
-        "template": "mentor_template/utilities-animation.html"
+        "template": "sb-admin-2_template/utilities-animation.html"
       },
       {
         "name": "Utilities Border",
         "contexts": ["base.json","utilities-border.json"],
-        "template": "mentor_template/utilities-border.html"
+        "template": "sb-admin-2_template/utilities-border.html"
       },
       {
         "name": "Utilities Color",
         "contexts": ["base.json","utilities-color.json"],
-        "template": "mentor_template/utilities-color.html"
+        "template": "sb-admin-2_template/utilities-color.html"
       },
       {
         "name": "Utilities Other",
         "contexts": ["base.json","utilities-other.json"],
-        "template": "mentor_template/utilities-other.html"
+        "template": "sb-admin-2_template/utilities-other.html"
       }
     ]
   }

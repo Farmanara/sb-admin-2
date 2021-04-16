@@ -10,7 +10,7 @@
     "side_bar":{
         
         "side_bar_brand": {
-            "href":"index.html",
+            "href":"/sb-admin-2/main/page/0/index.html",
             "i_class":"fas fa-laugh-wink",
             "text":"SB Admin",
             "sup_text":"2"
@@ -33,7 +33,7 @@
             "collapse_header":"Custom Components",
             "collapse_items":[
                 {
-                    "href":"buttons.html?contexts=buttons.json",
+                    "href":"/sb-admin-2/main/page/3/buttons.html",
                     "text":"Buttons"
                 },
                 {

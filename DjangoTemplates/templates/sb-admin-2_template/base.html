@@ -60,7 +60,7 @@
 
             <!-- Nav Item - Pages Collapse Menu -->
                 <li class="nav-item {%if page == 'buttons' or 'cards' %} active {%endif%}">
-                <a class="nav-link {%if page == 'index' %} collapsed {%endif%}" href="#" data-toggle="collapse" data-target="#collapseTwo"
+                <a class="nav-link {%if page == 'index' or 'charts'%} collapsed {%endif%}" href="#" data-toggle="collapse" data-target="#collapseTwo"
                     aria-expanded="true" aria-controls="collapseTwo">
                     <i class="fas fa-fw fa-cog"></i>
                     <span>Components</span>
@@ -123,7 +123,7 @@
             </li>
 
             <!-- Nav Item - Charts -->
-            <li class="nav-item">
+            <li class="nav-item {%if page == 'charts'%} active {%endif%}">
                 <a class="nav-link" href="/sb-admin-2/main/page/5/charts.html">
                     <i class="fas fa-fw fa-chart-area"></i>
                     <span>Charts</span></a>

@@ -1,3 +1,6 @@
 {
-    "page":"animations"
+    "page":"animations",
+    "head":{
+        "title":"animations"
+    }
 }

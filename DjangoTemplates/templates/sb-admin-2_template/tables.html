@@ -18,12 +18,14 @@
                                         <tr>
                                             {%for item in content.table.headers%}
                                             <th>{{item}}</th>
+                                            {%endfor%}
                                         </tr>
                                     </thead>
                                     <tfoot>
                                         <tr>
                                       {%for item in content.table.footers%}
                                             <th>{{item}}</th>
+                                      {%endfor%}  
                                         </tr>
                                     </tfoot>
                                     <tbody>

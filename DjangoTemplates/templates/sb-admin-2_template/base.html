@@ -108,7 +108,7 @@
                     <i class="fas fa-fw fa-folder"></i>
                     <span>Pages</span>
                 </a>
-                <div id="collapsePages" class="collapse {% if page != '404' or 'blank' %} show {%endif%}" aria-labelledby="headingPages" data-parent="#accordionSidebar">
+                <div id="collapsePages" class="collapse {% if page == '404' or 'blank' %} show {%endif%}" aria-labelledby="headingPages" data-parent="#accordionSidebar">
                     <div class="bg-white py-2 collapse-inner rounded">
                         <h6 class="collapse-header">Login Screens:</h6>
                         <a class="collapse-item" href="/sb-admin-2/main/page/7/login.html">Login</a>
@@ -116,8 +116,8 @@
                         <a class="collapse-item" href="/sb-admin-2/main/page/6/forgot-password.html">Forgot Password</a>
                         <div class="collapse-divider"></div>
                         <h6 class="collapse-header">Other Pages:</h6>
-                        <a class="collapse-item" href="/sb-admin-2/main/page/1/404.html">404 Page</a>
-                        <a class="collapse-item" href="/sb-admin-2/main/page/2/blank.html">Blank Page</a>
+                        <a class="collapse-item {% if page == '404' %} active {%endif%} " href="/sb-admin-2/main/page/1/404.html">404 Page</a>
+                        <a class="collapse-item {% if page == 'blank' %} active {%endif%} " href="/sb-admin-2/main/page/2/blank.html">Blank Page</a>
                     </div>
                 </div>
             </li>

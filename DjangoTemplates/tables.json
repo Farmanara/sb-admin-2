@@ -1,7 +1,30 @@
 {
-    "page":"tables",
-    "head":
-    {
-        "title":"SB Admin 2 - Tables"
+    "page": "tables",
+    "head": {
+        "title": "SB Admin 2 - Tables"
+    },
+    "content": {
+        "heading": "Tables",
+        "description": "DataTables is a third party plugin that is used to generate the demo table below. For more information about DataTables, please visit the",
+        "href": "https://datatables.net",
+        "a_text": " official DataTables documentation.",
+        "table":{
+            "name":"DataTables Example",
+            "headers":[
+                "Name","Position","Office","Age","Start date","Salary"
+            ],
+            "footers":[
+                "Name","Position","Office","Age","Start date","Salary"
+            ],
+            "rows":[
+                {
+                    "data":[
+                        "Tiger Nixon","System Architect","Edinburgh","61","2011/04/25","$320,800"
+                    ]
+                }
+            ]
+        }
     }
+
+
 }

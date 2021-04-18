@@ -65,7 +65,7 @@
                     <i class="fas fa-fw fa-cog"></i>
                     <span>Components</span>
                 </a>
-                <div id="collapseTwo" class="collapse {%if page == 'buttons' or 'cards' %} show {%endif%} " aria-labelledby="headingTwo" data-parent="#accordionSidebar">
+                <div id="collapseTwo" class="collapse {%if page == 'buttons' or page == 'cards' %} show {%endif%} " aria-labelledby="headingTwo" data-parent="#accordionSidebar">
                     <div class="bg-white py-2 collapse-inner rounded">
                         <h6 class="collapse-header">Custom Components:</h6>
                         <a class="collapse-item {% if page == 'buttons' %} active {%endif%}" href="/sb-admin-2/main/page/3/buttons">Buttons</a>
@@ -75,7 +75,7 @@
             </li>
 
             <!-- Nav Item - Utilities Collapse Menu -->
-            <li class="nav-item {%if page == 'animations' or 'borders' or 'colors' or 'others' %} active {%endif%}" ">
+            <li class="nav-item {%if page == 'animations' or page == 'borders' or page == 'colors' or page == 'others' %} active {%endif%}" ">
                 <a class="nav-link {%if page != 'animations'%} collapsed {%endif%}" href="#" data-toggle="collapse" data-target="#collapseUtilities"
                     aria-expanded="true" aria-controls="collapseUtilities">
                     <i class="fas fa-fw fa-wrench"></i>

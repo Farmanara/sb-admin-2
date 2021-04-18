@@ -102,13 +102,13 @@
             </div>
 
             <!-- Nav Item - Pages Collapse Menu -->
-            <li class="nav-item {%if page == '404' or 'blank'%} active {%endif%}">
-                <a class="nav-link {%if page != '404' or 'blank'%} collapsed {%endif%}" href="#" data-toggle="collapse" data-target="#collapsePages"
+            <li class="nav-item {%if page == '404' or page == 'blank'%} active {%endif%}">
+                <a class="nav-link {%if page != '404' or page != 'blank'%} collapsed {%endif%}" href="#" data-toggle="collapse" data-target="#collapsePages"
                     aria-expanded="true" aria-controls="collapsePages">
                     <i class="fas fa-fw fa-folder"></i>
                     <span>Pages</span>
                 </a>
-                <div id="collapsePages" class="collapse {%if page == '404' or 'blank'%} show {%endif%}" aria-labelledby="headingPages" data-parent="#accordionSidebar">
+                <div id="collapsePages" class="collapse {%if page == '404' or page == 'blank'%} show {%endif%}" aria-labelledby="headingPages" data-parent="#accordionSidebar">
                     <div class="bg-white py-2 collapse-inner rounded">
                         <h6 class="collapse-header">Login Screens:</h6>
                         <a class="collapse-item" href="/sb-admin-2/main/page/7/login.html">Login</a>

@@ -28,17 +28,17 @@
             "i_class":"fas fa-fw fa-cog",
             "span_text":"Components",
             "collapse_header":"Custom Components:",
-            "collapse_items":[
-                {   "class":"collapse-item {% if page == 'buttons' %} active {%endif%}",
+            "items":{
+               "buttons" : {  
                     "href":"/sb-admin-2/main/page/3/buttons.html",
                     "text":"Buttons"
                 },
-                {
-                    "class":"collapse-item {%if page == 'cards' %} active {%endif%}",
+               "cards": {
+                    
                     "href":"/sb-admin-2/main/page/4/cards",
                     "text":"Cards"
                 }
-            ]
+            }
         },
         
         "nav_item_utilities_collapse_menu":{

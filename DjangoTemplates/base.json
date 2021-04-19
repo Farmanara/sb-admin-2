@@ -17,7 +17,6 @@
         },
         
         "nav_item_dashboard" : {
-            "active":"active",
             "href":"/sb-admin-2/main/page/0/index.html",
             "i_class":"fas fa-fw fa-tachometer-alt",
             "span_text":"Dashboard"
@@ -25,19 +24,18 @@
         "side_bar_heading":"Interface",
 
         "nav_item_collapse_menu":{
-            "active":"",
-            "collapsed":"",
             "href":"#",
             "i_class":"fas fa-fw fa-cog",
             "span_text":"Components",
-            "collapse_header":"Custom Components",
+            "collapse_header":"Custom Components:",
             "collapse_items":[
-                {
+                {   "class":"collapse-item {% if page == 'buttons' %} active {%endif%}",
                     "href":"/sb-admin-2/main/page/3/buttons.html",
                     "text":"Buttons"
                 },
                 {
-                    "href":"cards.html",
+                    "class":"collapse-item {%if page == 'cards' %} active {%endif%}",
+                    "href":"/sb-admin-2/main/page/4/cards",
                     "text":"Cards"
                 }
             ]

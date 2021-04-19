@@ -14,28 +14,34 @@
                         <div class="card-body">
                             <div class="table-responsive">
                                 <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
-                                    <thead>
+                                  <thead>
                                         <tr>
-                                            {%for item in content.table.headers%}
-                                            <th>{{item}}</th>
-                                            {%endfor%}
+                                            <th>Name</th>
+                                            <th>Position</th>
+                                            <th>Office</th>
+                                            <th>Age</th>
+                                            <th>Start date</th>
+                                            <th>Salary</th>
                                         </tr>
                                     </thead>
                                     <tfoot>
                                         <tr>
-                                      {%for item in content.table.footers%}
-                                            <th>{{item}}</th>
-                                      {%endfor%}  
+                                            <th>Name</th>
+                                            <th>Position</th>
+                                            <th>Office</th>
+                                            <th>Age</th>
+                                            <th>Start date</th>
+                                            <th>Salary</th>
                                         </tr>
                                     </tfoot>
                                     <tbody>
-                                    {% comment %} {%for row in content.table.rows%}
+                                    {%for row in content.table.rows%}
                                         <tr>
                                             {%for item in row.data%}
                                             <td>{{item}}</td>
                                             {%endfor%}
                                         </tr>
-                                    {%endfor%} {% endcomment %}
+                                    {%endfor%}
                                      
                                         <tr>
                                             <td>Ashton Cox</td>

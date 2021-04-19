@@ -35,13 +35,13 @@
                                         </tr>
                                     </tfoot>
                                     <tbody>
-                                    {%for row in content.table.rows%}
+                                    {% comment %} {%for row in content.table.rows%}
                                         <tr>
                                             {%for item in row.data%}
                                             <td>{{item}}</td>
                                             {%endfor%}
                                         </tr>
-                                    {%endfor%}
+                                    {%endfor%} {% endcomment %}
                                      
                                         <tr>
                                             <td>Ashton Cox</td>

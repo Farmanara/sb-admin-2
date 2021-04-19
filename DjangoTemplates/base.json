@@ -29,11 +29,11 @@
             "span_text":"Components",
             "collapse_header":"Custom Components:",
             "items":{
-               "buttons" : {  
+               "button" : {  
                     "href":"/sb-admin-2/main/page/3/buttons.html",
                     "text":"Buttons"
                 },
-               "cards": {
+               "card": {
                     
                     "href":"/sb-admin-2/main/page/4/cards",
                     "text":"Cards"

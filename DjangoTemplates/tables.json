@@ -7,7 +7,7 @@
         "heading": "Tables",
         "description": "DataTables is a third party plugin that is used to generate the demo table below. For more information about DataTables, please visit the",
         "href": "https://datatables.net",
-        "a_text": " official DataTables documentation.",
+        "a_text": " official DataTables documentation",
         "table":{
             "name":"DataTables Example",
             "headers":[
@@ -21,6 +21,11 @@
                     "data":[
                         "Tiger Nixon","System Architect","Edinburgh","61","2011/04/25","$320,800"
                     ]
+                },
+                {
+                "data":[
+                    "Garrett Winters","Accountant","Tokyo","63","2011/07/25","$170,750"
+                ]
                 }
             ]
         }

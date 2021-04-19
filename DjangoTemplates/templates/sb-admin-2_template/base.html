@@ -57,21 +57,22 @@
 
             <!-- Heading -->
             <div class="sidebar-heading">
-                Interface
+                {{side_bar.side_bar_heading}}
             </div>
 
             <!-- Nav Item - Pages Collapse Menu -->
                 <li class="nav-item {%if page == 'buttons' or page == 'cards' %} active {%endif%}">
-                <a class="nav-link {%if page == 'index' or page == 'charts' or page == 'tables'%} collapsed {%endif%}" href="#" data-toggle="collapse" data-target="#collapseTwo"
+                <a class="nav-link {%if page == 'index' or page == 'charts' or page == 'tables'%} collapsed {%endif%}" href="{{side_bar.nav_item_collapse_menu.href}}" data-toggle="collapse" data-target="#collapseTwo"
                     aria-expanded="true" aria-controls="collapseTwo">
-                    <i class="fas fa-fw fa-cog"></i>
-                    <span>Components</span>
+                    <i class="{{side_bar.nav_item_collapse_menu.i_class}}"></i>
+                    <span>{{side_bar.nav_item_collapse_menu.span_text}}</span>
                 </a>
                 <div id="collapseTwo" class="collapse {%if page == 'buttons' or page == 'cards' %} show {%endif%} " aria-labelledby="headingTwo" data-parent="#accordionSidebar">
                     <div class="bg-white py-2 collapse-inner rounded">
-                        <h6 class="collapse-header">Custom Components:</h6>
-                        <a class="collapse-item {% if page == 'buttons' %} active {%endif%}" href="/sb-admin-2/main/page/3/buttons">Buttons</a>
-                        <a class="collapse-item {%if page == 'cards' %} active {%endif%}" href="/sb-admin-2/main/page/4/cards">Cards</a>
+                        <h6 class="collapse-header">{{side_bar.nav_item_collapse_menu.collaspe_header}}</h6>
+                        {%for item in side_bar.nav_item_collapse_menu.collapse_items%}
+                        <a class="{{item.class}}" href="{{item.href}}">{{item.text}}</a>
+                        {%endfor%}
                     </div>
                 </div>
             </li>

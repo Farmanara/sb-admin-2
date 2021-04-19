@@ -70,9 +70,8 @@
                 <div id="collapseTwo" class="collapse {%if page == 'buttons' or page == 'cards' %} show {%endif%} " aria-labelledby="headingTwo" data-parent="#accordionSidebar">
                     <div class="bg-white py-2 collapse-inner rounded">
                         <h6 class="collapse-header">{{side_bar.nav_item_collapse_menu.collapse_header}}</h6>
-                        {%for item in side_bar.nav_item_collapse_menu.collapse_items%}
-                        <a class="{{item.class}}" href="{{item.href}}">{{item.text}}</a>
-                        {%endfor%}
+                        <a class="collapse-item {% if page == 'buttons' %} active {%endif%}" href="{{side_bar.nav_item_collapse_menu.items.buttons.href}}">{{side_bar.nav_item_collapse_menu.items.button.text}}</a>
+                        <a class="collapse-item {%if page == 'cards' %} active {%endif%}" href="{{side_bar.nav_item_collapse_menu.items.cards.href}}">{{side_bar.nav_item_collapse_menu.items.cards.text}}</a>
                     </div>
                 </div>
             </li>
@@ -88,10 +87,10 @@
                     data-parent="#accordionSidebar">
                     <div class="bg-white py-2 collapse-inner rounded">
                         <h6 class="collapse-header">Custom Utilities:</h6>
-                        <a class="collapse-item {%if page == 'colors'%} active {%endif%}" " href="/sb-admin-2/main/page/12/utilities-color.html">Colors</a>
+                        <a class="collapse-item {%if page == 'colors'%} active {%endif%}" href="/sb-admin-2/main/page/12/utilities-color.html">Colors</a>
                         <a class="collapse-item {%if page == 'borders'%} active {%endif%}"  href="/sb-admin-2/main/page/11/utilities-border.html">Borders</a>
                         <a class="collapse-item {%if page == 'animations'%} active {%endif%}" href="/sb-admin-2/main/page/10/utilities-animation.html">Animations</a>
-                        <a class="collapse-item {%if page == 'others'%} active {%endif%}" " href="/sb-admin-2/main/page/13/utilities-other.html">Other</a>
+                        <a class="collapse-item {%if page == 'others'%} active {%endif%}"  href="/sb-admin-2/main/page/13/utilities-other.html">Other</a>
                     </div>
                 </div>
             </li>

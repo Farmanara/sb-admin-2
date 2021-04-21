@@ -1,208 +1,286 @@
 {
-    "meta":{
-
-    },
+    "meta": {},
     "head": {
-        "title":""
-        
-
+        "title": ""
     },
-    "side_bar":{
-        
+    "side_bar": {
         "side_bar_brand": {
-            "href":"/sb-admin-2/main/page/0/index.html",
-            "i_class":"fas fa-laugh-wink",
-            "text":"SB Admin",
-            "sup_text":"2"
+            "href": "/sb-admin-2/main/page/0/index.html",
+            "i_class": "fas fa-laugh-wink",
+            "text": "SB Admin",
+            "sup_text": "2"
         },
-        
-        "nav_item_dashboard" : {
-            "href":"/sb-admin-2/main/page/0/index.html",
-            "i_class":"fas fa-fw fa-tachometer-alt",
-            "span_text":"Dashboard"
+        "nav_item_dashboard": {
+            "href": "/sb-admin-2/main/page/0/index.html",
+            "i_class": "fas fa-fw fa-tachometer-alt",
+            "span_text": "Dashboard"
         },
-        "side_bar_heading":"Interface",
-
-        "nav_item_collapse_menu":{
-            "href":"#",
-            "i_class":"fas fa-fw fa-cog",
-            "span_text":"Components",
-            "collapse_header":"Custom Components:",
-            "items":{
-               "button" : {  
-                    "href":"/sb-admin-2/main/page/3/buttons.html",
-                    "text":"Buttons"
+        "side_bar_heading_1": "Interface",
+        "nav_item_collapse_menu": {
+            "href": "#",
+            "i_class": "fas fa-fw fa-cog",
+            "span_text": "Components",
+            "collapse_header": "Custom Components:",
+            "items": {
+                "button": {
+                    "href": "/sb-admin-2/main/page/3/buttons",
+                    "text": "Buttons"
                 },
-               "card": {
-                    
-                    "href":"/sb-admin-2/main/page/4/cards",
-                    "text":"Cards"
+                "card": {
+                    "href": "/sb-admin-2/main/page/4/cards",
+                    "text": "Cards"
                 }
             }
         },
-        
-        "nav_item_utilities_collapse_menu":{
-            "href":"#",
-            "i_class":"fas fa-fw fa-wrench",
-            "span_text":"utilities",
-            "custom_utilities":{
-                "header":"Custom Utilities",
-                "list":[
+        "nav_item_utilities_collapse_menu": {
+            "href": "#",
+            "i_class": "fas fa-fw fa-wrench",
+            "span_text": "Utilities",
+            "custom_utilities": {
+                "header": "Custom Utilities:",
+                "color": {
+                    "href": "/sb-admin-2/main/page/12/utilities-color.html",
+                    "text": "Colors"
+                },
+                "border": {
+                    "href": "/sb-admin-2/main/page/11/utilities-border.html",
+                    "text": "Borders"
+                },
+                "animation": {
+                    "href": "/sb-admin-2/main/page/10/utilities-animation.html",
+                    "text": "Animations"
+                },
+                "other": {
+                    "href": "/sb-admin-2/main/page/13/utilities-other.html",
+                    "text": "Other"
+                }
+            }
+        },
+
+
+        "side_bar_heading_2":"Addons",
+        "addons":{
+            "pages":{
+                "href":"#",
+                "i_class":"fas fa-fw fa-folder",
+                "span_text":"Pages",
+                "headings":{
+                    "logins":"Login Screens:",
+                    "others":"Other Pages:"    
+                },
+                "login_pages":{
+                    "heading":"Login Screens:",
+                    "items":[
                     {
-                        "href":"utilities-color.html",
-                        "text":"Colors"
+                        "href":"/sb-admin-2/main/page/7/login.html",
+                        "text":"Login"
                     },
                     {
-                        "href":"utilities-border.html",
-                        "text":"Borders"
+                        "href":"/sb-admin-2/main/page/8/register.html",
+                        "text":"Register"
                     },
                     {
-                        "href":"utilities-animation.html",
-                        "text":"Animations"
-                    },
-                    {
-                        "href":"utilities-other.html",
-                        "text":"Other"
+                        "href":"/sb-admin-2/main/page/6/forgot-password.html",
+                        "text":"Forgot Password"
                     }
-                ]
-            }
-        },
-        "nav_item_charts":{
 
-            "list":[
-                {
-                    "href":"charts.html",
-                    "i_class":"fas fa-fw fa-chart-area",
-                    "span_text":"Chart"
+                ]},
+               "404":{
+                    "href":"/sb-admin-2/main/page/1/404.html",
+                    "heading":"404 Page"
+               },
+               "blank":{
+                   "href":"/sb-admin-2/main/page/2/blank.html",
+                   "heading":"Blank Page"
 
-                },
-                {
-                    "href":"tables.html",
-                    "i_class":"fas fa-fw fa-table",
-                    "span_text":"Tables"
-                }
-            ]
-        },
-        "toggler":{
-            "button":{
-                "class":"rounded-circle border-0",
-                "id":"sidebarToggle"
-            }
-        },
-        "message": {
-            "img":{
-                "src":"sb-admin-2_template/assets/img/undraw_rocket.svg",
-                "alt":""
+               }
+
+
             },
+            "charts":{
+                "href":"/sb-admin-2/main/page/5/charts.html",
+                "i_class":"fas fa-fw fa-chart-area",
+                "span_text":"Charts"
+            },
+            "tables":{
+                "href":"/sb-admin-2/main/page/9/tables.html",
+                "i_class":"fas fa-fw fa-table",
+                "span_text":"Tables"
+            }
+        },
+        "message":{
+            "img":"sb-admin-2_template/assets/img/undraw_rocket.svg",
+            "img_alt":"",
             "text":{
                 "strong":"SB Admin Pro",
-                "paragraph":"is packed with premium features, components, and more!"
+                "normal":" is packed with premium features, components, and more!"
+              
             },
-            "button":{
-                "class":"btn btn-success btn-sm",
-                "href":"https://startbootstrap.com/theme/sb-admin-pro",
-                "text":"Upgrade to Pro!"
-            }
+           "button":{
+            "class":"btn btn-success btn-sm",
+            "href":"https://startbootstrap.com/theme/sb-admin-pro",
+            "text":"Upgrade to Pro!"
+           }
         }
+      
     },
-
-    "topbar":{
-        "toggler":{
-            "button":{
-                "id":"sidebarToggleTop",
-                "class":"btn btn-link d-md-none rounded-circle mr-3",
-                "i_class":"fa fa-bars"
+    "topbar": {
+        "toggler": {
+            "button": {
+                "class": "btn btn-link d-md-none rounded-circle mr-3",
+                "i_class": "fa fa-bars"
             }
-
         },
-        "search":{
-            "form":{
-                "class":"d-none d-sm-inline-block form-inline mr-auto ml-md-3 my-2 my-md-0 mw-100 navbar-search",
-                "input":{
-                    "type":"text",
-                    "placeholder":"Search for...",
-                    "aria_label":"Search",
-                    "aria_describedby":"basic-addon2"
+        "search": {
+            "form": {
+                "input": {
+                    "type": "text",
+                    "placeholder": "Search for..."
+                
                 },
-                "button":{
-                    "class":"btn btn-primary",
-                    "type":"button",
-                    "i_class":"fas fa-search fa-sm"
+                "button": {
+                    "class": "btn btn-primary",
+                    "i_class": "fas fa-search fa-sm"
                 }
             }
-
         },
-        "navbar":{
-            "search_dropdown":{
-                "class":"nav-link dropdown-toggle",
-                "href":"#",
-                "id":"searchDropdown",
-                "role":"button",
-                "i_class":"fas fa-search fa-fw",
-                "messages":{
-                    "form":{
-                        "class":"form-inline mr-auto w-100 navbar-search",
-                        "input":{
-                            "type":"text",
-                            "class":"form-control bg-light border-0 small",
-                            "placeholder":"Search for..."
+        "navbar": {
+            "search_dropdown": {
+                "href": "#",
+                "i_class": "fas fa-search fa-fw",
+                "messages": {
+                    "form": {
+                        "input": {
+                            "placeholder": "Search for..."
                         },
-                        "button":{
-                            "class":"btn btn-primary",
-                            "type":"button",
-                            "i_class":"fas fa-search fa-sm"
+                        "button": {
+                            "class": "btn btn-primary",
+                            "i_class": "fas fa-search fa-sm"
                         }
                     }
                 }
             },
-            "alerts":{
-                "class":"nav-item dropdown no-arrow mx-1",
-                "href":"#",
-                "id":"alertsDropdown",
-                "role":"button",
-                "i_class":"fas fa-bell fa-fw",
-                "span_class":"badge badge-danger badge-counter",
-                "span_text":"3+",
-            
-                "dropdown":{
-                "label":"Alerts Center",
-                "list":[
-                    {
-                        "href":"",
-                        "class":"icon-circle bg-primary",
-                        "i_class":"fas fa-file-alt text-white",
-                        "date_class":"small text-gray-500",
-                        "date_text":"December 12, 2019",
-                        "span_text":"A new monthly report is ready to download!"
 
-                    },
-                    {
-                        "href":"",
-                        "class":"icon-circle bg-succes",
-                        "i_class":"fas fa-donate text-white",
-                        "date_class":"small text-gray-500",
-                        "date_text":"December 7, 2019",
-                        "span_text":"$290.29 has been deposited into your account!"
 
-                    },
-                    {
-                        "href":"",
-                        "class":"icon-circle bg-warning",
-                        "i_class":"fas fa-exclamation-triangle text-white",
-                        "date_class":"small text-gray-500",
-                        "date_text":"December 2, 2019",
-                        "span_text":"Spending Alert: We've noticed unusually high spending for your account."
+        
+            "alerts": {
+                "class": "nav-item dropdown no-arrow mx-1",
+                "href": "#",
+                "i_class": "fas fa-bell fa-fw",
 
+                "span_class": "badge badge-danger badge-counter",
+                "span_text": "3+",
+                "dropdown": {
+                    "label": "Alerts Center",
+                    "list": [
+                        {
+                            "href": "#",
+                            "class": "icon-circle bg-primary",
+                            "i_class": "fas fa-file-alt text-white",
+                            "date_class": "small text-gray-500",
+                            "date_text": "December 12, 2019",
+                            "span_text": "A new monthly report is ready to download!"
+                        },
+                        {
+                            "href": "#",
+                            "class": "icon-circle bg-succes",
+                            "i_class": "fas fa-donate text-white",
+                            "date_class": "small text-gray-500",
+                            "date_text": "December 7, 2019",
+                            "span_text": "$290.29 has been deposited into your account!"
+                        },
+                        {
+                            "href": "#",
+                            "class": "icon-circle bg-warning",
+                            "i_class": "fas fa-exclamation-triangle text-white",
+                            "date_class": "small text-gray-500",
+                            "date_text": "December 2, 2019",
+                            "span_text": "Spending Alert: We've noticed unusually high spending for your account."
+                        }
+                    ],
+                    "footer": {
+                        "href": "#",
+                        "text": "Show All Alerts"
                     }
-                ],
-                "footer":{
-                    "href":"#",
-                    "text":"Show All Alerts"
                 }
-
+            },
+            "messages":{
+                    "href":"#",
+                    "i_class":"fas fa-envelope fa-fw",
+                    "span_class":"badge badge-danger badge-counter",
+                    "span_text":"7",
+                    "dropdown":{
+                        "label":"Message Center",
+                        "list":[
+                            {
+                                "href":"#",
+                                "img_src":"sb-admin-2_template/assets/img/undraw_profile_1.svg",
+                                "img_alt":"",
+                                "status_class":"status-indicator bg-success",
+                                "text":"Hi there! I am wondering if you can help me with a problem I've been having.",
+                                "sub_text":"Emily Fowler · 58m"
+                            },
+                            {
+                                "href":"#",
+                                "img_src":"sb-admin-2_template/assets/img/undraw_profile_2.svg",
+                                "img_alt":"",
+                                "status_class":"status-indicator",
+                                "text":"I have the photos that you ordered last month, how would you like them sent to you?",
+                                "sub_text":"Jae Chun · 1d"
+                            },
+                            {
+                                "href":"#",
+                                "img_src":"sb-admin-2_template/assets/img/undraw_profile_3.svg",
+                                "img_alt":"",
+                                "status_class":"status-indicator bg-warning",
+                                "text":"Last month's report looks great, I am very happy with the progress so far, keep up the good work!",
+                                "sub_text":"Morgan Alvarez · 2d"
+                            },
+                            {
+                                "href":"#",
+                                "img_src":"https://source.unsplash.com/Mv9hjnEUHR4/60x60",
+                                "img_alt":"",
+                                "status_class":"status-indicator bg-success",
+                                "text":"Am I a good boy? The reason I ask is because someone told me that people say this to all dogs, even if they aren't good...",
+                                "sub_text":"Chicken the Dog · 2w"
+                            }
+                        ],
+                        "footer":{
+                            "href":"#",
+                            "text":"Read More Messages"
+                        }
+                    }
+            },
+            "user":{
+                "href":"#",
+                "name":"",
+                "img_src":"",
+                "dropdown":{
+                    "list": [
+                        {
+                            "href":"",
+                            "i_class":"",
+                            "text":""
+                        },
+                        {
+                            "href":"",
+                            "i_class":"",
+                            "text":""
+                        },
+                        {
+                            "href":"",
+                            "i_class":"",
+                            "text":""
+                        },
+                        {
+                            "divider":"True",
+                            "href":"",
+                            "i_class":"",
+                            "text":""
+                        }
+                    ]
+                }
             }
-          
         }
-}
-}
+    }
 }

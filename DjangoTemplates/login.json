@@ -19,7 +19,7 @@
 
         "buttons":[
             {
-                "href":"login.html?contexts=login.json",
+                "href":"/sb-admin-2/main/page/0/index.html",
                 "class":"btn btn-primary btn-user btn-block",
                 "i_class":"",
                 "text":"Login",
@@ -28,7 +28,7 @@
 
             },
             {
-                "href":"index.html?contexts=index.json",
+                "href":"/sb-admin-2/main/page/0/index.html",
                 "class":"btn btn-google btn-user btn-block",
                 "i_class":"fab fa-google fa-fw",
                 "text":" Login with Google"
@@ -36,7 +36,7 @@
 
             },
             {
-                "href":"index.html?contexts=index.json",
+                "href":"/sb-admin-2/main/page/0/index.html",
                 "class":"btn btn-facebook btn-user btn-block",
                 "i_class":"fab fa-facebook-f fa-fw",
                 "text":" Login with Facebook"
@@ -46,11 +46,11 @@
         ],
         "links":[
             {
-                "href":"forgot-password.html?contexts=forgot-password.json",
+                "href":"/sb-admin-2/main/page/6/forgot-password.html",
                 "text":"Forgot Password?"
             },
             {
-                "href":"login.html?contexts=index.json",
+                "href":"/sb-admin-2/main/page/8/register.html",
                 "text":"Create an Account!"
             }
 

@@ -288,7 +288,7 @@
         },
         "logout":{
             "btn_class":"btn btn-primary",
-            "href":"/sb-admin-2/main/page/7/login.htm",
+            "href":"/sb-admin-2/main/page/7/login.html",
             "text":"Logout"
 
         }

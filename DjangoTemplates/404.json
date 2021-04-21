@@ -8,8 +8,8 @@
         "description":"Page Not Found",
         "message":"It looks like you found a glitch in the matrix...",
         "anchor":{
-            "href":"index.html",
-            "text":" &larr; Back to Dashboard"
+            "href":"/sb-admin-2/main/page/0/index.html",
+            "text":"← Back to Dashboard"
         }
 
     }

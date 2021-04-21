@@ -183,7 +183,7 @@
                         },
                         {
                             "href": "#",
-                            "class": "icon-circle bg-succes",
+                            "class": "icon-circle bg-success",
                             "i_class": "fas fa-donate text-white",
                             "date_class": "small text-gray-500",
                             "date_text": "December 7, 2019",

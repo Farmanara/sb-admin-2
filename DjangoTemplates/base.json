@@ -253,30 +253,30 @@
             },
             "user":{
                 "href":"#",
-                "name":"",
-                "img_src":"",
+                "name":"Douglas McGee",
+                "img_src":"sb-admin-2_template/assets/img/undraw_profile.svg",
                 "dropdown":{
                     "list": [
                         {
-                            "href":"",
-                            "i_class":"",
-                            "text":""
+                            "href":"#",
+                            "i_class":"fas fa-user fa-sm fa-fw mr-2 text-gray-400",
+                            "text":"Profile"
                         },
                         {
-                            "href":"",
-                            "i_class":"",
-                            "text":""
+                            "href":"#",
+                            "i_class":"fas fa-cogs fa-sm fa-fw mr-2 text-gray-400",
+                            "text":"Settings"
                         },
                         {
-                            "href":"",
-                            "i_class":"",
-                            "text":""
+                            "href":"#",
+                            "i_class":"fas fa-list fa-sm fa-fw mr-2 text-gray-400",
+                            "text":"Activity Log"
                         },
                         {
                             "divider":"True",
-                            "href":"",
-                            "i_class":"",
-                            "text":""
+                            "href":"#",
+                            "i_class":"fas fa-sign-out-alt fa-sm fa-fw mr-2 text-gray-400",
+                            "text":"Logout"
                         }
                     ]
                 }

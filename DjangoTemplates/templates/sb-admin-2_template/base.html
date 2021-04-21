@@ -239,7 +239,7 @@
                                     </div>
                                     <div>
                                         <div class="{{item.date_class}}">{{item.date_text}}</div>
-                                        <span class="font-weight-bold">{{item.span_text}}</span>
+                                       {%if item.span_class%} <span class="font-weight-bold">{{item.span_text}}</span> {%else%} {{item.span_text}} {%endif%}
                                     </div>
                                 </a>
                                 {%endfor%}
@@ -269,7 +269,7 @@
                                             alt="">
                                         <div class="{{item.status_class}}"></div>
                                     </div>
-                                    <div class="font-weight-bold">
+                                    <div  class="{{item.text_class}}">
                                         <div class="text-truncate">{{item.text}}</div>
                                         <div class="small text-gray-500">{{item.sub_text}}</div>
                                     </div>

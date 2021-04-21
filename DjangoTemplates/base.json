@@ -179,6 +179,7 @@
                             "i_class": "fas fa-file-alt text-white",
                             "date_class": "small text-gray-500",
                             "date_text": "December 12, 2019",
+                            "span_class":"font-weight-bold",
                             "span_text": "A new monthly report is ready to download!"
                         },
                         {
@@ -217,6 +218,7 @@
                                 "img_src":"sb-admin-2_template/assets/img/undraw_profile_1.svg",
                                 "img_alt":"",
                                 "status_class":"status-indicator bg-success",
+                                "text_class":"font-weight-bold",
                                 "text":"Hi there! I am wondering if you can help me with a problem I've been having.",
                                 "sub_text":"Emily Fowler · 58m"
                             },

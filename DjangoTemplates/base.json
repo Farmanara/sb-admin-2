@@ -287,10 +287,6 @@
     },
     "footer":{
         "div_class":"copyright text-center my-auto",
-        "text":{
-            "part_1":"Copyright ",
-            "symbol":"&copy;",
-            "part_2":" Your Website 2020"
-        }
+        "text":"Copyright © Your Website 2020"
     }
 }

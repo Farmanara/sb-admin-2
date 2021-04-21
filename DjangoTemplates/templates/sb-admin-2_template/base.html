@@ -265,7 +265,7 @@
                                 {%for item in topbar.navbar.messages.dropdown.list%}
                                 <a class="dropdown-item d-flex align-items-center" href="{{item.href}}">
                                     <div class="dropdown-list-image mr-3">
-                                        <img class="rounded-circle" src="{%static 'item.img_src'%}"
+                                        <img class="rounded-circle" src="{%static item.img_src %}"
                                             alt="">
                                         <div class="{{item.status_class}}"></div>
                                     </div>

@@ -20,11 +20,11 @@
             "collapse_header": "Custom Components:",
             "items": {
                 "button": {
-                    "href": "/sb-admin-2/main/page/3/buttons",
+                    "href": "/sb-admin-2/main/page/3/buttons.html",
                     "text": "Buttons"
                 },
                 "card": {
-                    "href": "/sb-admin-2/main/page/4/cards",
+                    "href": "/sb-admin-2/main/page/4/cards.html",
                     "text": "Cards"
                 }
             }

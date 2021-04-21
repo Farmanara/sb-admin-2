@@ -1,3 +1,8 @@
 {
-    "page":"others"
+    "page":"others",
+    "head":{
+        "title":"SB Admin 2 - Other Utilities"
+    }
+
+    
 }

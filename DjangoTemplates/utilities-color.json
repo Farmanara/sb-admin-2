@@ -1,3 +1,6 @@
 {
-    "page":"colors"
+    "page":"colors",
+    "head":{
+        "title":"SB Admin 2 - Color Utilities"
+    }
 }

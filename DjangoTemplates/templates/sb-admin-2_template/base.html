@@ -347,15 +347,15 @@
         <div class="modal-dialog" role="document">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalLabel">Ready to Leave?</h5>
+                    <h5 class="modal-title" id="exampleModalLabel">{{logout_modal.heading}}</h5>
                     <button class="close" type="button" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">×</span>
+                        <span aria-hidden="true">{{logout_modal.close_btn}}</span>
                     </button>
                 </div>
-                <div class="modal-body">Select "Logout" below if you are ready to end your current session.</div>
+                <div class="modal-body">{{logout_modal.text}}</div>
                 <div class="modal-footer">
-                    <button class="btn btn-secondary" type="button" data-dismiss="modal">Cancel</button>
-                    <a class="btn btn-primary" href="/sb-admin-2/main/page/7/login.html">Logout</a>
+                    <button class="{{logout_modal.cancel.btn_class}}" type="button" data-dismiss="modal">{{logout_modal.cancel.text}}</button>
+                    <a class="{{logout_modal.logout.btn_class}}" href="{{logout_modal.logout.href}}">{{logout_modal.logout.text}}</a>
                 </div>
             </div>
         </div>

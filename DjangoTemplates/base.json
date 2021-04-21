@@ -56,73 +56,66 @@
                 }
             }
         },
-
-
-        "side_bar_heading_2":"Addons",
-        "addons":{
-            "pages":{
-                "href":"#",
-                "i_class":"fas fa-fw fa-folder",
-                "span_text":"Pages",
-                "headings":{
-                    "logins":"Login Screens:",
-                    "others":"Other Pages:"    
+        "side_bar_heading_2": "Addons",
+        "addons": {
+            "pages": {
+                "href": "#",
+                "i_class": "fas fa-fw fa-folder",
+                "span_text": "Pages",
+                "headings": {
+                    "logins": "Login Screens:",
+                    "others": "Other Pages:"
                 },
-                "login_pages":{
-                    "heading":"Login Screens:",
-                    "items":[
-                    {
-                        "href":"/sb-admin-2/main/page/7/login.html",
-                        "text":"Login"
-                    },
-                    {
-                        "href":"/sb-admin-2/main/page/8/register.html",
-                        "text":"Register"
-                    },
-                    {
-                        "href":"/sb-admin-2/main/page/6/forgot-password.html",
-                        "text":"Forgot Password"
-                    }
-
-                ]},
-               "404":{
-                    "href":"/sb-admin-2/main/page/1/404.html",
-                    "heading":"404 Page"
-               },
-               "blank":{
-                   "href":"/sb-admin-2/main/page/2/blank.html",
-                   "heading":"Blank Page"
-
-               }
-
-
+                "login_pages": {
+                    "heading": "Login Screens:",
+                    "items": [
+                        {
+                            "href": "/sb-admin-2/main/page/7/login.html",
+                            "text": "Login"
+                        },
+                        {
+                            "href": "/sb-admin-2/main/page/8/register.html",
+                            "text": "Register"
+                        },
+                        {
+                            "href": "/sb-admin-2/main/page/6/forgot-password.html",
+                            "text": "Forgot Password"
+                        }
+                    ]
+                },
+                "404": {
+                    "href": "/sb-admin-2/main/page/1/404.html",
+                    "heading": "404 Page"
+                },
+                "blank": {
+                    "href": "/sb-admin-2/main/page/2/blank.html",
+                    "heading": "Blank Page"
+                }
             },
-            "charts":{
-                "href":"/sb-admin-2/main/page/5/charts.html",
-                "i_class":"fas fa-fw fa-chart-area",
-                "span_text":"Charts"
+            "charts": {
+                "href": "/sb-admin-2/main/page/5/charts.html",
+                "i_class": "fas fa-fw fa-chart-area",
+                "span_text": "Charts"
             },
-            "tables":{
-                "href":"/sb-admin-2/main/page/9/tables.html",
-                "i_class":"fas fa-fw fa-table",
-                "span_text":"Tables"
+            "tables": {
+                "href": "/sb-admin-2/main/page/9/tables.html",
+                "i_class": "fas fa-fw fa-table",
+                "span_text": "Tables"
             }
         },
-        "message":{
-            "img":"sb-admin-2_template/assets/img/undraw_rocket.svg",
-            "img_alt":"",
-            "text":{
-                "strong":"SB Admin Pro",
-                "normal":" is packed with premium features, components, and more!"
-              
+        "message": {
+            "img": "sb-admin-2_template/assets/img/undraw_rocket.svg",
+            "img_alt": "",
+            "text": {
+                "strong": "SB Admin Pro",
+                "normal": " is packed with premium features, components, and more!"
             },
-           "button":{
-            "class":"btn btn-success btn-sm",
-            "href":"https://startbootstrap.com/theme/sb-admin-pro",
-            "text":"Upgrade to Pro!"
-           }
+            "button": {
+                "class": "btn btn-success btn-sm",
+                "href": "https://startbootstrap.com/theme/sb-admin-pro",
+                "text": "Upgrade to Pro!"
+            }
         }
-      
     },
     "topbar": {
         "toggler": {
@@ -136,7 +129,6 @@
                 "input": {
                     "type": "text",
                     "placeholder": "Search for..."
-                
                 },
                 "button": {
                     "class": "btn btn-primary",
@@ -160,14 +152,10 @@
                     }
                 }
             },
-
-
-        
             "alerts": {
                 "class": "nav-item dropdown no-arrow mx-1",
                 "href": "#",
                 "i_class": "fas fa-bell fa-fw",
-
                 "span_class": "badge badge-danger badge-counter",
                 "span_text": "3+",
                 "dropdown": {
@@ -179,7 +167,7 @@
                             "i_class": "fas fa-file-alt text-white",
                             "date_class": "small text-gray-500",
                             "date_text": "December 12, 2019",
-                            "span_class":"font-weight-bold",
+                            "span_class": "font-weight-bold",
                             "span_text": "A new monthly report is ready to download!"
                         },
                         {
@@ -205,88 +193,104 @@
                     }
                 }
             },
-            "messages":{
-                    "href":"#",
-                    "i_class":"fas fa-envelope fa-fw",
-                    "span_class":"badge badge-danger badge-counter",
-                    "span_text":"7",
-                    "dropdown":{
-                        "label":"Message Center",
-                        "list":[
-                            {
-                                "href":"#",
-                                "img_src":"sb-admin-2_template/assets/img/undraw_profile_1.svg",
-                                "img_alt":"",
-                                "status_class":"status-indicator bg-success",
-                                "text_class":"font-weight-bold",
-                                "text":"Hi there! I am wondering if you can help me with a problem I've been having.",
-                                "sub_text":"Emily Fowler · 58m"
-                            },
-                            {
-                                "href":"#",
-                                "img_src":"sb-admin-2_template/assets/img/undraw_profile_2.svg",
-                                "img_alt":"",
-                                "status_class":"status-indicator",
-                                "text":"I have the photos that you ordered last month, how would you like them sent to you?",
-                                "sub_text":"Jae Chun · 1d"
-                            },
-                            {
-                                "href":"#",
-                                "img_src":"sb-admin-2_template/assets/img/undraw_profile_3.svg",
-                                "img_alt":"",
-                                "status_class":"status-indicator bg-warning",
-                                "text":"Last month's report looks great, I am very happy with the progress so far, keep up the good work!",
-                                "sub_text":"Morgan Alvarez · 2d"
-                            },
-                            {   "external_src":"True",
-                                "href":"#",
-                                "img_src":"https://source.unsplash.com/Mv9hjnEUHR4/60x60",
-                                "img_alt":"",
-                                "status_class":"status-indicator bg-success",
-                                "text":"Am I a good boy? The reason I ask is because someone told me that people say this to all dogs, even if they aren't good...",
-                                "sub_text":"Chicken the Dog · 2w"
-                            }
-                        ],
-                        "footer":{
-                            "href":"#",
-                            "text":"Read More Messages"
-                        }
-                    }
-            },
-            "user":{
-                "href":"#",
-                "name":"Douglas McGee",
-                "img_src":"sb-admin-2_template/assets/img/undraw_profile.svg",
-                "dropdown":{
+            "messages": {
+                "href": "#",
+                "i_class": "fas fa-envelope fa-fw",
+                "span_class": "badge badge-danger badge-counter",
+                "span_text": "7",
+                "dropdown": {
+                    "label": "Message Center",
                     "list": [
                         {
-                            "href":"#",
-                            "i_class":"fas fa-user fa-sm fa-fw mr-2 text-gray-400",
-                            "text":"Profile"
+                            "href": "#",
+                            "img_src": "sb-admin-2_template/assets/img/undraw_profile_1.svg",
+                            "img_alt": "",
+                            "status_class": "status-indicator bg-success",
+                            "text_class": "font-weight-bold",
+                            "text": "Hi there! I am wondering if you can help me with a problem I've been having.",
+                            "sub_text": "Emily Fowler · 58m"
                         },
                         {
-                            "href":"#",
-                            "i_class":"fas fa-cogs fa-sm fa-fw mr-2 text-gray-400",
-                            "text":"Settings"
+                            "href": "#",
+                            "img_src": "sb-admin-2_template/assets/img/undraw_profile_2.svg",
+                            "img_alt": "",
+                            "status_class": "status-indicator",
+                            "text": "I have the photos that you ordered last month, how would you like them sent to you?",
+                            "sub_text": "Jae Chun · 1d"
                         },
                         {
-                            "href":"#",
-                            "i_class":"fas fa-list fa-sm fa-fw mr-2 text-gray-400",
-                            "text":"Activity Log"
+                            "href": "#",
+                            "img_src": "sb-admin-2_template/assets/img/undraw_profile_3.svg",
+                            "img_alt": "",
+                            "status_class": "status-indicator bg-warning",
+                            "text": "Last month's report looks great, I am very happy with the progress so far, keep up the good work!",
+                            "sub_text": "Morgan Alvarez · 2d"
                         },
                         {
-                            "divider":"True",
-                            "href":"#",
-                            "i_class":"fas fa-sign-out-alt fa-sm fa-fw mr-2 text-gray-400",
-                            "text":"Logout"
+                            "external_src": "True",
+                            "href": "#",
+                            "img_src": "https://source.unsplash.com/Mv9hjnEUHR4/60x60",
+                            "img_alt": "",
+                            "status_class": "status-indicator bg-success",
+                            "text": "Am I a good boy? The reason I ask is because someone told me that people say this to all dogs, even if they aren't good...",
+                            "sub_text": "Chicken the Dog · 2w"
+                        }
+                    ],
+                    "footer": {
+                        "href": "#",
+                        "text": "Read More Messages"
+                    }
+                }
+            },
+            "user": {
+                "href": "#",
+                "name": "Douglas McGee",
+                "img_src": "sb-admin-2_template/assets/img/undraw_profile.svg",
+                "dropdown": {
+                    "list": [
+                        {
+                            "href": "#",
+                            "i_class": "fas fa-user fa-sm fa-fw mr-2 text-gray-400",
+                            "text": "Profile"
+                        },
+                        {
+                            "href": "#",
+                            "i_class": "fas fa-cogs fa-sm fa-fw mr-2 text-gray-400",
+                            "text": "Settings"
+                        },
+                        {
+                            "href": "#",
+                            "i_class": "fas fa-list fa-sm fa-fw mr-2 text-gray-400",
+                            "text": "Activity Log"
+                        },
+                        {
+                            "divider": "True",
+                            "href": "#",
+                            "i_class": "fas fa-sign-out-alt fa-sm fa-fw mr-2 text-gray-400",
+                            "text": "Logout"
                         }
                     ]
                 }
             }
         }
     },
-    "footer":{
-        "div_class":"copyright text-center my-auto",
-        "text":"Copyright © Your Website 2020"
+    "footer": {
+        "div_class": "copyright text-center my-auto",
+        "text": "Copyright © Your Website 2020"
+    },
+    "logout_modal":{
+        "heading":"Ready to Leave?",
+        "close_btn":"×",
+        "text":"Select \"Logout\" below if you are ready to end your current session.",
+        "cancel":{
+            "btn_class":"btn btn-secondary",
+            "text":"Cancel"
+        },
+        "logout":{
+            "btn_class":"btn btn-primary",
+            "href":"/sb-admin-2/main/page/7/login.htm",
+            "text":"Logout"
+
+        }
     }
 }

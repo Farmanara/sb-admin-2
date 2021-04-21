@@ -236,7 +236,7 @@
                                 "text":"Last month's report looks great, I am very happy with the progress so far, keep up the good work!",
                                 "sub_text":"Morgan Alvarez · 2d"
                             },
-                            {
+                            {   "external_src":"True",
                                 "href":"#",
                                 "img_src":"https://source.unsplash.com/Mv9hjnEUHR4/60x60",
                                 "img_alt":"",
